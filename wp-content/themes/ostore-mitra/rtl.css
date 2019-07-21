@@ -1,0 +1,271 @@
+/*
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/WebYekan.eot');
+    src: url('fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WebYekan.woff') format('woff'),
+         url('fonts/WebYekan.ttf') format('truetype'),
+         url('fonts/WebYekan.svg#WebYekan') format('svg');
+}
+*/
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/BMitraBold.woff') format('woff');
+}
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/BMitra.woff') format('woff');
+}
+
+.product-flexslider {
+    direction: ltr;
+}
+.logo-slider {
+    direction: ltr;
+}
+.comment-notes, .comment-awaiting-moderation, .logged-in-as, .form-allowed-tags {
+    color: #707070;
+    font-family: mitra;
+}
+.comment-author .avatar {
+    float: right;
+    height: 45px;
+    margin-right: 0.8em;
+    width: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -ms-border-radius: 30px;
+    margin-left: 25px;
+}
+body {
+    color: #212121;
+    font-family: mitra;
+}
+.ostore-bottom-banner-img h3 {
+    letter-spacing: 0px;
+}
+.discount-info_shadow_txt {
+    letter-spacing: 0px;
+}
+#primary-menu ul li > a {
+    font-family: mitra;
+}
+body {
+    text-align: right;
+}
+.ostore-service-box .ostore-service-icon {
+    float: right;
+}
+.ui-tabs-nav::after {
+    border-left: 47px solid #1ccca9;
+    border-right: inherit;
+    right: inherit;
+    left: 0px;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    text-align: right;
+}
+.widget_archive a::before, .widget_categories a::before, .widget_recent_entries a::before, .widget_meta a::before, .widget_recent_comments li::before, .widget_rss li::before, .widget_pages li::before, .widget_nav_menu li::before, .widget_product_categories a::before {
+    margin-right: -20px;
+    left: inherit;
+    right: 0px;
+    margin-left: inherit;
+}
+.widget_meta li a, .widget_archive li a, .widget_recent_entries li a, .widget_categories li a, .widget_pages li a, .widget_rss li a, .widget_recent_comments li {
+    margin-right: 12px !important;
+    margin-left: inherit !important;
+}
+.widget_meta a::before, .widget_nav_menu li::before {
+    content: "\f100";
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+}
+.pull-left {
+    float: right !important;
+}
+.pull-right {
+    float: left !important;
+}
+.payment {
+    text-align: left;
+}
+body {
+    overflow-x: hidden;
+}
+.footer-social ul.inline-mode li {
+    margin-top: 20px;
+}
+.coppyright {
+    margin-top: 28px;
+}
+.hr-title span {
+    letter-spacing: 0px;
+}
+.ostore-hot-deal-desc {
+    font-family: Yekan;
+}
+.add-to-cart-mt {
+    font-family: Yekan;
+}
+.widget_recent_entries a::before {
+    content: "\f100";
+}
+.sidebar-widget ul {
+    margin-right: 10px;
+    margin-left: inherit;
+}
+.comments-title, .comment-reply-title {
+    font-family: Yekan;
+}
+.comment-form label, .comment-form-comment label {
+    color: #707070;
+    font-family: Yekan;
+}
+.ostore_hlp_panel_left {
+    width: 34%;
+    float: right;
+}
+.widget:first-child {
+    margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+          float: right;
+    }
+.top-cart-content {
+    left: 13px;
+	right: auto;
+}
+#primary-menu ul ul:not(.mega-menu-column) ul {
+    left: auto;
+}
+
+#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+    right: 0;
+	left: auto;
+}
+.logo {
+    padding: 0px 0 0 0;
+}
+#primary-menu ul ul:not(.mega-menu-column) ul {
+    right: 100%;
+	top: 0;
+}
+}
+.blog-posts .post-item .entry-meta-data span {
+    margin-left: 6px;
+    border-left: 0px #ddd solid;
+    padding-left: 7px;
+    margin-right: inherit;
+    border-right: inherit;
+    padding-right: inherit;
+}
+.blog-posts .post-item .entry-meta-data span:last-child {
+    margin-left: 12px;
+    border-left: 0px #ddd solid;
+    padding-left: 10px;
+    margin-right: inherit;
+    border-right: inherit;
+    padding-right: inherit;
+}
+#primary-menu ul ul li > a {
+    font-family: Yekan;
+}
+#primary-menu ul > li {
+    float: right;
+    margin-right: 2px;
+    margin-left: inherit;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: right !important;
+}
+.top-cart-contain {
+    margin-right: 30px;
+    margin-left: inherit;
+}
+.wishlist-wrapper .quick-wishlist sup {
+    top: -43px;
+    left: -28px;
+    right: inherit;
+}
+.top_add_cart {
+    margin-top: 14px;
+    margin-right: 16px;
+    margin-bottom: 15px;
+    margin-left: inherit;
+}
+del span.woocommerce-Price-amount {
+    color: #23282d;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: inherit;
+}
+.ui-tabs-nav {
+    padding-left: 90px;
+    padding-right: inherit;
+}
+.ostore_hlp_actions a {
+    float: right;
+}
+#primary-menu ul li > a {
+    display: block;
+    line-height: 22px;
+    color: #444;
+    padding: 10px 0 0 0;
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    letter-spacing: 0;
+}
+.wishlist_table tr td.product-thumbnail, .wishlist_table tr td.product-name, .wishlist_table tr td.wishlist-name, .wishlist_table tr td.wishlist-privacy, .woocommerce table.wishlist_table tfoot td {
+    text-align: right;
+}
+#primary-menu ul ul li > a {
+    font-size: 12px;
+    font-weight: normal;
+}
+.woocommerce .quantity .qty {
+    height: 50px;
+    font-size: 15px;
+}
+.woocommerce .quantity .qty {
+    width: 6em;
+    text-align: center;
+}
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    padding: 15px 1em;
+}
+.headerlinkmenu div.links div a {
+    color: #fff;
+    font-size: 15px;
+}
+.quickinfo_main {
+    font-size: 15px;
+}
+.comment-list .reply a {
+    font-family: Yekan;
+}
+.top-cart-contain sup {
+    top: -47px;
+    right: 25px;
+}
+.header-top a {
+    color: #fff;
+    margin-right: 0px;
+}
+.ui-tabs-nav li {
+    border-right: none;
+}
+.blog-posts .post-item .entry-meta-data span:last-child {
+    display: none;
+}
+.fa-angle-double-right::before {
+    content: "\f100";
+}

@@ -1,0 +1,750 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-03 08:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid "Try using the button below to go to main page of the site"
+msgstr ""
+
+#: 404.php:19
+msgid "Go to Back"
+msgstr ""
+
+#: archive.php:36 index.php:37 search.php:31
+msgid "<"
+msgstr ""
+
+#: archive.php:37 index.php:38 search.php:32
+msgid ">"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47 comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50 comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:51 comments.php:72
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:105
+msgid "ADD COMMENT"
+msgstr ""
+
+#: functions.php:46
+msgid "Primary"
+msgstr ""
+
+#: functions.php:47
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:119
+msgid "Add widgets here."
+msgstr ""
+
+#. Name of the template
+#: functions.php:127
+msgid "Home Page"
+msgstr ""
+
+#: functions.php:129
+msgid "Home page Sections widget area"
+msgstr ""
+
+#: functions.php:137 functions.php:139
+msgid "First Footer Area"
+msgstr ""
+
+#: functions.php:147
+msgid "Second Footer Area"
+msgstr ""
+
+#: functions.php:149
+msgid "Second Footer widget area"
+msgstr ""
+
+#: functions.php:157 functions.php:159
+msgid "Third Footer Area"
+msgstr ""
+
+#: functions.php:167
+msgid "Forth Footer Area"
+msgstr ""
+
+#: functions.php:169
+msgid "Forth Footer area"
+msgstr ""
+
+#: functions.php:177 functions.php:179
+msgid "Fifth Footer Area"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: single.php:27 template-parts/content.php:33 themerelic/widgets/blog.php:142
+#: themerelic/widgets/blog.php:199
+msgid "By:"
+msgstr ""
+
+#: single.php:35 template-parts/content.php:37
+#: themerelic/hooks/ostore-hook.php:517 themerelic/widgets/blog.php:147
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single.php:51 themerelic/hooks/ostore-hook.php:486
+msgid "Releated Post"
+msgstr ""
+
+#: single.php:79 themerelic/hooks/ostore-hook.php:522
+#: themerelic/widgets/blog.php:156
+msgid "Read more"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:36
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:27
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-search.php:28 template-parts/content.php:43
+#: themerelic/widgets/blog.php:201
+msgid "Continus reading"
+msgstr ""
+
+#: themerelic/customizer.php:58
+msgid "General Settings"
+msgstr ""
+
+#: themerelic/customizer.php:80
+msgid "Header Settings"
+msgstr ""
+
+#: themerelic/customizer.php:88
+msgid "Top Header"
+msgstr ""
+
+#: themerelic/customizer.php:99 themerelic/customizer.php:162
+#: themerelic/customizer.php:229 themerelic/customizer.php:247
+#: themerelic/customizer.php:394
+msgid "Enabel"
+msgstr ""
+
+#: themerelic/customizer.php:109
+msgid "Email"
+msgstr ""
+
+#: themerelic/customizer.php:118
+msgid "Address"
+msgstr ""
+
+#: themerelic/customizer.php:127
+msgid "Phone No"
+msgstr ""
+
+#: themerelic/customizer.php:136
+msgid "Opening Time"
+msgstr ""
+
+#: themerelic/customizer.php:151
+msgid "Slider"
+msgstr ""
+
+#: themerelic/customizer.php:171
+msgid "Slider Category"
+msgstr ""
+
+#: themerelic/customizer.php:180
+msgid "Slider Style"
+msgstr ""
+
+#: themerelic/customizer.php:183
+msgid "Slider & Left Category"
+msgstr ""
+
+#: themerelic/customizer.php:184
+msgid "Slider & Right Category"
+msgstr ""
+
+#: themerelic/customizer.php:194
+msgid "Select First Category"
+msgstr ""
+
+#: themerelic/customizer.php:203
+msgid "Select Second Category"
+msgstr ""
+
+#: themerelic/customizer.php:217
+msgid "Footer Settings"
+msgstr ""
+
+#: themerelic/customizer.php:235 themerelic/customizer.php:383
+msgid "Social Links"
+msgstr ""
+
+#: themerelic/customizer.php:256 themerelic/customizer.php:403
+msgid "Facebook URL"
+msgstr ""
+
+#: themerelic/customizer.php:265 themerelic/customizer.php:412
+msgid "Google Plus"
+msgstr ""
+
+#: themerelic/customizer.php:274 themerelic/customizer.php:421
+msgid "Twitter URL"
+msgstr ""
+
+#: themerelic/customizer.php:283 themerelic/customizer.php:430
+msgid "RSS URL"
+msgstr ""
+
+#: themerelic/customizer.php:292 themerelic/customizer.php:439
+msgid "Linkedin URL"
+msgstr ""
+
+#: themerelic/customizer.php:301 themerelic/customizer.php:448
+msgid "Instagram URL"
+msgstr ""
+
+#: themerelic/customizer.php:320 themerelic/customizer.php:472
+msgid "Enabel Subscribe"
+msgstr ""
+
+#: themerelic/customizer.php:329 themerelic/customizer.php:481
+msgid "Mailchimp Shortcode"
+msgstr ""
+
+#: themerelic/customizer.php:338 themerelic/customizer.php:490
+msgid "Singup Header Text"
+msgstr ""
+
+#: themerelic/customizer.php:347 themerelic/customizer.php:499
+msgid "Singup Short Descrption"
+msgstr ""
+
+#: themerelic/customizer.php:353
+msgid "Buttom Footer Section"
+msgstr ""
+
+#: themerelic/customizer.php:365
+msgid "Enabel Social Links Footer"
+msgstr ""
+
+#: themerelic/customizer.php:519
+msgid "Logo Slider"
+msgstr ""
+
+#: themerelic/customizer.php:520
+msgid "logo Slider Section Hear"
+msgstr ""
+
+#: themerelic/customizer.php:531 themerelic/KCustomizer.php:280
+msgid "Enable"
+msgstr ""
+
+#: themerelic/customizer.php:532
+msgid "Enable and Disable Logo Slider"
+msgstr ""
+
+#: themerelic/customizer.php:546
+msgid "Clints Logo Title"
+msgstr ""
+
+#: themerelic/customizer.php:547
+msgid "Client Logo Title Hear"
+msgstr ""
+
+#: themerelic/customizer.php:561
+msgid "Clints Logo Description Hear"
+msgstr ""
+
+#: themerelic/customizer.php:562
+msgid "Client Logo Description Hear Hear"
+msgstr ""
+
+#: themerelic/customizer.php:578
+msgid "Logo Slider Image"
+msgstr ""
+
+#: themerelic/customizer.php:579
+msgid "Add the Logo Slider Image"
+msgstr ""
+
+#: themerelic/customizer.php:589
+msgid "Payment Logo "
+msgstr ""
+
+#: themerelic/customizer.php:590
+msgid "Payment logo  Section Hear"
+msgstr ""
+
+#: themerelic/customizer.php:600
+msgid "Payment Enable"
+msgstr ""
+
+#: themerelic/customizer.php:614 themerelic/customizer.php:615
+msgid "Payment Logo Image"
+msgstr ""
+
+#: themerelic/customizer.php:641
+msgid "Image"
+msgstr ""
+
+#: themerelic/customizer.php:647
+msgid "Add"
+msgstr ""
+
+#: themerelic/KCustomizer.php:281
+msgid "Disable"
+msgstr ""
+
+#: themerelic/KWidget.php:166
+msgid "No file chosen"
+msgstr ""
+
+#: themerelic/KWidget.php:170
+msgid "Upload"
+msgstr ""
+
+#: themerelic/KWidget.php:172
+msgid "Remove"
+msgstr ""
+
+#: themerelic/KWidget.php:175
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:14
+msgid "Toggle navigation"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:114 themerelic/hooks/ostore-hook.php:116
+msgid "My Account"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:123
+msgid "Log Out"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:132
+msgid "Log In"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:138
+msgid "Register"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:280
+msgid "View Collection"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:317
+msgid "Hot Deals"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:330
+msgid "Hot"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:350
+msgid "Add to Cart"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:365 themerelic/widgets/hot-deal.php:152
+msgid "Days"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:366 themerelic/widgets/hot-deal.php:153
+msgid "Hours"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:367 themerelic/widgets/hot-deal.php:154
+msgid "Mins"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:368 themerelic/widgets/hot-deal.php:155
+msgid "Secs"
+msgstr ""
+
+#: themerelic/hooks/ostore-hook.php:547
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: themerelic/hooks/ostore-hook.php:549
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: themerelic/hooks/ostore-hook.php:554
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:52 themerelic/hooks/woocommerce.php:111
+msgid "Sale"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:260
+msgid "Add to Wishlist"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:285
+msgid "Wishlist"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:336 themerelic/hooks/woocommerce.php:356
+msgid "Compare"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:360
+msgid "Add to Compare"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:411
+msgid "Recently added item(s)"
+msgstr ""
+
+#: themerelic/widgets/banner.php:12
+msgid "OS : Home Banner "
+msgstr ""
+
+#: themerelic/widgets/banner.php:13
+msgid "Ostore Banner Section"
+msgstr ""
+
+#: themerelic/widgets/banner.php:30
+msgid "VIEW COLLECTION"
+msgstr ""
+
+#: themerelic/widgets/blog.php:18
+msgid "Blog Description"
+msgstr ""
+
+#: themerelic/widgets/blog.php:31
+#: themerelic/widgets/category-collections.php:31
+#: themerelic/widgets/hot-deal.php:33 themerelic/widgets/tab.php:32
+msgid "Title"
+msgstr ""
+
+#: themerelic/widgets/blog.php:37
+#: themerelic/widgets/category-collections.php:37
+#: themerelic/widgets/hot-deal.php:40 themerelic/widgets/tab.php:37
+msgid "Very Short Description"
+msgstr ""
+
+#: themerelic/widgets/blog.php:43
+#: themerelic/widgets/category-collections.php:44 themerelic/widgets/tab.php:65
+msgid "Select Lists Collection Category"
+msgstr ""
+
+#: themerelic/widgets/blog.php:49
+msgid "Number of post"
+msgstr ""
+
+#: themerelic/widgets/blog.php:56
+msgid "Select View"
+msgstr ""
+
+#: themerelic/widgets/blog.php:59
+msgid "Grid View"
+msgstr ""
+
+#: themerelic/widgets/blog.php:60
+msgid "List View"
+msgstr ""
+
+#: themerelic/widgets/category-collections.php:17
+msgid "widget that show woocommerce category collection with feature image"
+msgstr ""
+
+#: themerelic/widgets/category-collections.php:49
+msgid "Collection Show Style"
+msgstr ""
+
+#: themerelic/widgets/category-collections.php:52
+#: themerelic/widgets/hlp-products.php:34
+msgid "Style 1"
+msgstr ""
+
+#: themerelic/widgets/category-collections.php:53
+#: themerelic/widgets/hlp-products.php:35
+msgid "Style 2"
+msgstr ""
+
+#: themerelic/widgets/category-collections.php:125
+#: themerelic/widgets/category-collections.php:165
+msgid "View more"
+msgstr ""
+
+#: themerelic/widgets/hlp-products.php:18
+msgid ""
+"widget that show Hot Deal , Latest Products and Popular Products section"
+msgstr ""
+
+#: themerelic/widgets/hlp-products.php:31
+msgid "HLP Products Style"
+msgstr ""
+
+#: themerelic/widgets/hlp-products.php:40
+msgid "HLP Category"
+msgstr ""
+
+#: themerelic/widgets/hlp-products.php:125
+msgid "Lastest Products"
+msgstr ""
+
+#: themerelic/widgets/hlp-products.php:171
+msgid "Popular Products"
+msgstr ""
+
+#: themerelic/widgets/hlp-products.php:173 themerelic/widgets/tab.php:340
+msgid "New"
+msgstr ""
+
+#: themerelic/widgets/hot-deal.php:19
+msgid "Display Hot Deal Products Display"
+msgstr ""
+
+#: themerelic/widgets/hot-deal.php:46
+msgid "Select Hot Deal Category"
+msgstr ""
+
+#: themerelic/widgets/hot-deal.php:47
+msgid "only shows scheduled products from category"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:19
+msgid "widget that show service box section"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:32
+msgid "Box 1 Title"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:37
+msgid "Box 1 Very Short Description"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:43
+msgid "Box 1 Font Awesome Icon"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:49
+msgid "Box 2 Title"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:54
+msgid "Box 2 Short Description"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:60
+msgid "Box 2 Font Awesome Icon"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:67
+msgid "Box 3 Title"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:72
+msgid "Box 3 Short Description"
+msgstr ""
+
+#: themerelic/widgets/services-box.php:78
+msgid "Box 3 Font Awesome Icon"
+msgstr ""
+
+#: themerelic/widgets/tab.php:19
+msgid "Tab for WooCommerce or Product Category"
+msgstr ""
+
+#: themerelic/widgets/tab.php:43
+msgid "Type of Tabs"
+msgstr ""
+
+#: themerelic/widgets/tab.php:47
+msgid "WoCommerce"
+msgstr ""
+
+#: themerelic/widgets/tab.php:48
+msgid "Categories"
+msgstr ""
+
+#: themerelic/widgets/tab.php:53
+msgid "Select Default Woocommerce"
+msgstr ""
+
+#: themerelic/widgets/tab.php:56 themerelic/widgets/tab.php:126
+msgid "Feature Product"
+msgstr ""
+
+#: themerelic/widgets/tab.php:57 themerelic/widgets/tab.php:127
+msgid "Latest Product"
+msgstr ""
+
+#: themerelic/widgets/tab.php:58 themerelic/widgets/tab.php:128
+msgid "Onsale Product"
+msgstr ""
+
+#: themerelic/widgets/tab.php:59 themerelic/widgets/tab.php:129
+msgid "Upsale Product"
+msgstr ""
+
+#: themerelic/widgets/tab.php:71
+msgid "Number of product"
+msgstr ""
+
+#: themerelic/widgets/tab.php:153
+msgid "All"
+msgstr ""
+
+#. Name of the theme
+msgid "oStore"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"oStore is a clean, beautiful and fully customizable responsive WordPress "
+"WooCommerce theme. This theme includes many premium features and several "
+"custom widgets which helps making your online store professional and well "
+"organized. It is fully compatible with WooCommerce and YITH WooCommerce "
+"Wishlist , Quickview and Compare plugins. As an online store owner, "
+"attracting customers and selling products will be lot easier with this theme."
+"  Some of the features this theme includes are customizable slider, hot "
+"deals, product grid slider, product category tabs and many others. This "
+"theme is translation ready, SEO friendly and loads very quickly."
+msgstr ""
+
+#. URI of the theme
+msgid "http://themerelic.com/ostore"
+msgstr ""
+
+#. Author of the theme
+msgid "themerelic"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themerelic.com"
+msgstr ""

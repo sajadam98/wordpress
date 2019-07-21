@@ -1,0 +1,82 @@
+.image-list{
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+    background: #eee;
+    cursor: pointer;
+    vertical-align: middle;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-list:before{
+    content: '';
+    position: absolute;
+    display: none;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    box-shadow: inset 0 0 0 1px #fff, inset 0 0 0 5px #c60c31;
+  }
+  .image-list:hover:before{
+    display: block;
+  }
+
+  /* Payment method*/
+  .image-list1{
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 0 15px rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.05);
+    background: #eee;
+    cursor: pointer;
+    vertical-align: middle;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+    position: relative;
+  }
+  .image-list1:before{
+    content: '';
+    position: absolute;
+    display: none;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    box-shadow: inset 0 0 0 1px #fff, inset 0 0 0 5px #c60c31;
+  }
+  .image-list1:hover:before{
+    display: block;
+  }
+
+/******************************************
+*         Importants Links
+********************************************/
+a.pro-implink,
+a#demo_import {
+    width: 100%;
+    display: block;
+    padding: 6px 30px;
+    border: 1px solid;
+    margin: 5px 0px;
+    background-color: #e05f1f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+span.description.customize-control-description a:hover {
+  background: black;
+}

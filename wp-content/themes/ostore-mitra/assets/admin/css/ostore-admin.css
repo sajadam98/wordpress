@@ -1,0 +1,16 @@
+.multiplecategory{
+    height: 200px;
+    overflow: scroll;
+}
+
+.widget-main-group-heading{
+    font-size: 15px;  
+    font-weight: bold;  
+    padding-top: 12px;
+}
+
+div#bg-img-container img {
+    width: 100%;
+    height: auo;
+    height: auto;
+}

@@ -1,0 +1,2828 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio Web\n"
+"POT-Creation-Date: 2019-06-02 16:04+0430\n"
+"PO-Revision-Date: 2019-06-02 20:29+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوپس! این صفحه نمی تواند پیدا شود."
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"به نظر می رسد چیزی یافت نشد. شاید جستجو در یکی از لینک های زیر کمکتان کند. "
+"آیا مایل هستید؟"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "یک دیدگاه برای &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s دیدگاه برای &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s دیدگاه برای &ldquo;%2$s&rdquo;"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "نظرات بسته شده اند."
+
+#. translators: 1: Current Date, 2: Theme name, 3: Theme author.
+#: footer.php:40
+#, php-format
+msgid "Copyright %1$s %2$s. All Rights Reserved. Powered by %3$s"
+msgstr "کپی رایت %1$s %2$s. تمامی حقوق محفوظ است. طراحی شده توسط %3$s"
+
+#: functions.php:56
+msgid "Main menu"
+msgstr "منوی اصلی"
+
+#: functions.php:57
+msgid "Footer Top Menu"
+msgstr "منوی فوتر (بالا)"
+
+#: functions.php:58
+msgid "Footer Menu"
+msgstr "منوی فوتر"
+
+#: inc/customizer/customizer.php:74
+msgid "Upgrade To WP Commerce Pro"
+msgstr "ارتقاء به نسخه حرفه ای WP Commerce"
+
+#: inc/customizer/wc-customizer-classes.php:239
+#: inc/widgets/wc-widget-fields.php:217
+msgid "Select Image"
+msgstr "انتخاب تصویر"
+
+#: inc/customizer/wc-customizer-classes.php:240
+#: inc/widgets/wc-widget-fields.php:216
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/customizer/wc-customizer-classes.php:245
+#: inc/widgets/wc-widget-fields.php:209
+msgid "No image selected"
+msgstr "تصویری انتخاب نشده است"
+
+#: inc/customizer/wc-customizer-classes.php:259
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/customizer/wc-customizer-classes.php:260
+msgid "Close"
+msgstr "بستن"
+
+#: inc/customizer/wc-customizer-sanitize.php:99
+#: inc/customizer/wc-footer-panel.php:67 inc/customizer/wc-footer-panel.php:133
+#: inc/customizer/wc-frontpage-panel.php:68
+#: inc/customizer/wc-frontpage-panel.php:158
+#: inc/customizer/wc-frontpage-panel.php:258
+#: inc/customizer/wc-frontpage-panel.php:335
+#: inc/customizer/wc-frontpage-panel.php:412
+#: inc/customizer/wc-frontpage-panel.php:492
+#: inc/customizer/wc-frontpage-panel.php:582
+#: inc/customizer/wc-header-panel.php:74 inc/customizer/wc-header-panel.php:169
+#: inc/customizer/wc-header-panel.php:200
+msgid "Show"
+msgstr "نمایش"
+
+#: inc/customizer/wc-customizer-sanitize.php:100
+#: inc/customizer/wc-footer-panel.php:68 inc/customizer/wc-footer-panel.php:134
+#: inc/customizer/wc-frontpage-panel.php:69
+#: inc/customizer/wc-frontpage-panel.php:159
+#: inc/customizer/wc-frontpage-panel.php:259
+#: inc/customizer/wc-frontpage-panel.php:336
+#: inc/customizer/wc-frontpage-panel.php:413
+#: inc/customizer/wc-frontpage-panel.php:493
+#: inc/customizer/wc-frontpage-panel.php:583
+#: inc/customizer/wc-header-panel.php:75 inc/customizer/wc-header-panel.php:170
+#: inc/customizer/wc-header-panel.php:201
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#: inc/customizer/wc-footer-panel.php:23
+msgid "Footer Settings"
+msgstr "تنظیمات فوتر"
+
+#: inc/customizer/wc-footer-panel.php:40
+msgid "Social Links"
+msgstr "لینک شبکه های اجتماعی"
+
+#: inc/customizer/wc-footer-panel.php:61
+msgid "Social Link options"
+msgstr "تنظیمات شبکه های اجتماعی"
+
+#: inc/customizer/wc-footer-panel.php:62
+msgid "Show/Hide option for Footer Social Links"
+msgstr "تنظیم نمایش/پنهان کردن شبکه های اجتماعی در فوتر"
+
+#. translators: %s: Label
+#: inc/customizer/wc-footer-panel.php:85 inc/customizer/wc-footer-panel.php:151
+#, php-format
+msgid "%s Url"
+msgstr ""
+
+#: inc/customizer/wc-footer-panel.php:106
+msgid "Payment method links"
+msgstr "لینک های روش پرداخت"
+
+#: inc/customizer/wc-footer-panel.php:127
+msgid "Payment method options"
+msgstr "تنظیمات روش پرداخت"
+
+#: inc/customizer/wc-footer-panel.php:128
+msgid "Show/Hide option for Payment method Links"
+msgstr "تنظیم نمایش/پنهان کردن لینک های روش پرداخت"
+
+#: inc/customizer/wc-footer-panel.php:172
+msgid "Footer Subscribe"
+msgstr "اشتراک پاورقی"
+
+#: inc/customizer/wc-footer-panel.php:183
+msgid "Subscribe Section Use Shortcode"
+msgstr "بخش عضویت از طریق کد کوتاه"
+
+#. translators: %s: Description
+#: inc/customizer/wc-footer-panel.php:185
+#, php-format
+msgid "Use Newsletter Plugins shortcode: Eg: %1$s. %2$s See more here %3$s"
+msgstr ""
+"استفاده از کوتاه افزونه Newsletter: به عنوان مثال: %1$s. %2$s اینجا را "
+"ببینید %3$s"
+
+#: inc/customizer/wc-frontpage-panel.php:23
+msgid "Frontpage Settings"
+msgstr "تنظیمات صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:40
+msgid "Product Slider Section"
+msgstr "بخش اسلایدر محصولات"
+
+#: inc/customizer/wc-frontpage-panel.php:41
+msgid "Managed the slider display at Frontpage section."
+msgstr "مدیریت نمایش اسلایدر در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:62
+msgid "Frontpage Product Slider Option"
+msgstr "تنظیم اسلایدر محصولات در صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:63
+msgid "Show/Hide option for Frontpage Product Slider section."
+msgstr "تنظیم نمایش/پنهان کردن بحش اسلایدر محصولات در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:94
+msgid "Select Category for slider"
+msgstr "دسته بندی اسلایدر را انتخاب کنید"
+
+#: inc/customizer/wc-frontpage-panel.php:110
+msgid "Number of Slider to slide"
+msgstr "تعداد اسلایدهای اسلایدر"
+
+#: inc/customizer/wc-frontpage-panel.php:111
+#: inc/customizer/wc-frontpage-panel.php:534
+#: inc/customizer/wc-frontpage-panel.php:637
+msgid "input 3,4,5,6,7,8,9,10"
+msgstr "ورودی 3،4،5،6،7،8،9،10"
+
+#: inc/customizer/wc-frontpage-panel.php:130
+msgid "Promo Section"
+msgstr "بخش تبلیغات"
+
+#: inc/customizer/wc-frontpage-panel.php:131
+msgid "Managed the promo display at Frontpage section."
+msgstr "مدیریت نمایش تبلیغات در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:152
+msgid "Frontpage Promo Option"
+msgstr "تنظیم آگهی صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:153
+msgid "Show/Hide option for Frontpage Promo section."
+msgstr "تنظیم نمایش/پنهان کردن بخش تبلیغات در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:177
+msgid "Collection 2018"
+msgstr "مجموعه 2018"
+
+#: inc/customizer/wc-frontpage-panel.php:178
+#, php-format
+msgid "Sale up to 20% off"
+msgstr "حراج تا 20% o تخفیف"
+
+#: inc/customizer/wc-frontpage-panel.php:190
+msgid "Frontpage Promo Items"
+msgstr "آیتم های تبلیغاتی صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:193
+msgid "Promo Item"
+msgstr "آیتم تبلیغاتی"
+
+#: inc/customizer/wc-frontpage-panel.php:194
+#: inc/customizer/wc-header-panel.php:109
+msgid "Add Item"
+msgstr "افزودن آیتم"
+
+#: inc/customizer/wc-frontpage-panel.php:199
+msgid "Item title"
+msgstr "عنوان آیتم"
+
+#: inc/customizer/wc-frontpage-panel.php:200
+msgid "Enter item title"
+msgstr "عنوان آیتم را وارد کنید"
+
+#: inc/customizer/wc-frontpage-panel.php:204
+#: inc/customizer/wc-header-panel.php:119
+msgid "Item Info"
+msgstr "اطلاعات آیتم"
+
+#: inc/customizer/wc-frontpage-panel.php:205
+msgid "Enter short info for item."
+msgstr "اطلاعات کوتاهی برای آیتم وارد کنید."
+
+#: inc/customizer/wc-frontpage-panel.php:209
+msgid "Item Feature Image"
+msgstr "تصویر آیتم ویژه"
+
+#: inc/customizer/wc-frontpage-panel.php:210
+msgid "Upload Feature Image."
+msgstr "آپلود تصویر ویژه."
+
+#: inc/customizer/wc-frontpage-panel.php:230
+msgid "Feature Products Section"
+msgstr "بخش محصولات ویژه"
+
+#: inc/customizer/wc-frontpage-panel.php:231
+msgid "Managed the Feature Products Section display at Frontpage section."
+msgstr "مدیریت محصولات ویژه جهت نمایش در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:252
+msgid "Frontpage Feature Products Option"
+msgstr "تنظیم محصولات ویژه در صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:253
+msgid "Show/Hide option for Frontpage Feature Products section."
+msgstr "تنظیم نمایش/پنهان کردن بخش محصولات ویژه در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:267
+msgid "Feature Products"
+msgstr "ویژگی محصولات"
+
+#: inc/customizer/wc-frontpage-panel.php:272
+msgid "Feature Products Text"
+msgstr "متن ویژگی محصولات"
+
+#: inc/customizer/wc-frontpage-panel.php:288
+#: inc/customizer/wc-frontpage-panel.php:365
+#: inc/customizer/wc-frontpage-panel.php:443
+msgid "Go to Widget"
+msgstr "برو به ابزارک"
+
+#: inc/customizer/wc-frontpage-panel.php:291
+#: inc/customizer/wc-frontpage-panel.php:368
+#: inc/customizer/wc-frontpage-panel.php:446
+msgid " for adding products in this section"
+msgstr " برای اضافه کردن محصولات در این بخش"
+
+#: inc/customizer/wc-frontpage-panel.php:307
+msgid "New Arrivals Section"
+msgstr "بخش محصولات تازه رسیده"
+
+#: inc/customizer/wc-frontpage-panel.php:308
+msgid "Managed the New Arrivals section display at Frontpage section."
+msgstr "مدیریت محصولات تازه رسیده جهت نمایش در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:329
+msgid "Frontpage New Arrivals Option"
+msgstr "تنظیمات محصولات جدید صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:330
+msgid "Show/Hide option for Frontpage New Arrivals section."
+msgstr "تنظیم نمایش/پنهان کردن بخش محصولات تازه رسیده در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:344
+msgid "New Arrivals"
+msgstr "محصولات تازه رسیده"
+
+#: inc/customizer/wc-frontpage-panel.php:349
+msgid "New Arrivals Text"
+msgstr "متن محصولات تازه رسیده"
+
+#: inc/customizer/wc-frontpage-panel.php:384
+msgid "Hot Products Section"
+msgstr "بخش محصولات داغ"
+
+#: inc/customizer/wc-frontpage-panel.php:385
+msgid "Managed the Hot Products section display at Frontpage section."
+msgstr "مدیریت بخش محصولات داغ جهت نمایش در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:406
+msgid "Frontpage Hot Products Option"
+msgstr "تنظیم محصولات داع در صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:407
+msgid "Show/Hide option for Frontpage Hot Products section."
+msgstr "تنظیم نمایش/پنهان کردن بخش محصولات داغ در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:422
+msgid "Hot Products"
+msgstr "محصولات داغ"
+
+#: inc/customizer/wc-frontpage-panel.php:427
+msgid "Hot Products Text"
+msgstr "متن محصولات داغ"
+
+#: inc/customizer/wc-frontpage-panel.php:464
+msgid "Service Section"
+msgstr "بخش خدمات"
+
+#: inc/customizer/wc-frontpage-panel.php:465
+msgid "Managed the Service display at Frontpage section."
+msgstr "مدیریت خدمات جهت نمایش در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:486
+msgid "Frontpage Service Option"
+msgstr "تنظیم خدمات در صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:487
+msgid "Show/Hide option for Frontpage Service section."
+msgstr "تنظیم نمایش/پنهان کردن بخش خدمات در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:517
+#: inc/customizer/wc-frontpage-panel.php:620
+msgid "Select Category for Service"
+msgstr "دسته بندی برای خدمات انتخاب کنید"
+
+#: inc/customizer/wc-frontpage-panel.php:533
+msgid "Number of service to display"
+msgstr "تعداد خدمات برای نمایش"
+
+#: inc/customizer/wc-frontpage-panel.php:554
+msgid "Latest News Section"
+msgstr "بخش آخرین اخبار"
+
+#: inc/customizer/wc-frontpage-panel.php:555
+msgid "Managed the Latest News display at Frontpage section."
+msgstr "مدیریت آخرین اخبار جهت نمایش در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:576
+msgid "Frontpage Latest News Option"
+msgstr "تنظیم آخرین اخبار در صفحه اول"
+
+#: inc/customizer/wc-frontpage-panel.php:577
+msgid "Show/Hide option for Frontpage Latest News section."
+msgstr "تنظیم نمایش/پنهان کردن بخش آخرین اخبار در صفحه اول."
+
+#: inc/customizer/wc-frontpage-panel.php:591
+msgid "Latest News"
+msgstr "آخرین اخبار"
+
+#: inc/customizer/wc-frontpage-panel.php:596
+msgid "Latest News Title"
+msgstr "عنوان آخرین اخبار"
+
+#: inc/customizer/wc-frontpage-panel.php:636
+msgid "Number of Latest News to display"
+msgstr "تعداد آخرین اخبار برای نمایش"
+
+#: inc/customizer/wc-general-panel.php:31
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: inc/customizer/wc-general-panel.php:53
+msgid "Primary Theme Color"
+msgstr "رنگ اصلی قالب"
+
+#: inc/customizer/wc-general-panel.php:77
+msgid "Secondary Theme Color"
+msgstr "رنگ ثانویه قالب"
+
+#: inc/customizer/wc-header-panel.php:14
+msgid "Header Image"
+msgstr "تصویر هدر"
+
+#: inc/customizer/wc-header-panel.php:28
+msgid "Header Settings"
+msgstr "تنظیمات هدر"
+
+#: inc/customizer/wc-header-panel.php:45
+msgid "Top Header Section"
+msgstr "بخش بالای هدر"
+
+#: inc/customizer/wc-header-panel.php:46
+msgid "Managed the content display at top header section."
+msgstr "مدیریت محتوا جهت نمایش در بخش بالای هدر."
+
+#: inc/customizer/wc-header-panel.php:67
+msgid "Top Header Option"
+msgstr "تنظیم بالای هدر"
+
+#: inc/customizer/wc-header-panel.php:68
+msgid "Show/Hide option for top header section."
+msgstr "تنظیم نمایش/پنهان کردن بخش بالای هدر."
+
+#: inc/customizer/wc-header-panel.php:104
+msgid "Top Header Items"
+msgstr "آیتم های بالای هدر"
+
+#: inc/customizer/wc-header-panel.php:108
+msgid "Single Item"
+msgstr "آیتم تکی"
+
+#: inc/customizer/wc-header-panel.php:114
+msgid "Item Icon"
+msgstr "آیکون آیتم"
+
+#: inc/customizer/wc-header-panel.php:115
+msgid "Choose icon for single item from available lists."
+msgstr "آیکونی را برای آیتم تکی از لیست موجود انتخاب نمائید."
+
+#: inc/customizer/wc-header-panel.php:120
+msgid "Enter short info for single item."
+msgstr "اطلاعات کوتاهی برای آیتم تکی وارد کنید."
+
+#: inc/customizer/wc-header-panel.php:140
+msgid "Extra Options"
+msgstr "تنظیمات اضافی"
+
+#: inc/customizer/wc-header-panel.php:141
+msgid "Managed the several extra option in header section."
+msgstr "مدیریت اطلاعات اضافی در بخش هدر."
+
+#: inc/customizer/wc-header-panel.php:162
+msgid "Header Search Option"
+msgstr "تنظیم جستجوی هدر"
+
+#: inc/customizer/wc-header-panel.php:163
+msgid "Show/Hide option for search form at header section."
+msgstr "تنظیم نمایش/پنهان کردن فرم جستجو در بخش هدر."
+
+#: inc/customizer/wc-header-panel.php:193
+msgid "Header Cart Option"
+msgstr "تنظیم سبد خرید هدر"
+
+#: inc/customizer/wc-header-panel.php:194
+msgid "Show/Hide option for shopping cart at header section."
+msgstr "تنظیم نمایش/پنهان کردن سبد خرید در بخش هدر."
+
+#: inc/customizer/wc-header-panel.php:219
+msgid "Header Currency Exchanger"
+msgstr ""
+
+#: inc/customizer/wc-header-panel.php:220
+msgid "Type shortcode Eg:-[wcj_currency_select_drop_down_list]"
+msgstr "مثالی از نوع کد کوتاه: -[wcj_currency_select_drop_down_list]"
+
+#: inc/demo/demo.php:18
+msgid "Import WP Commerce Demo"
+msgstr ""
+
+#: inc/demo/demo.php:22
+msgid "It will overwrite your settings"
+msgstr "این تنظیمات شما را بازنویسی خواهد کرد"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "ارسال شده در %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "توسط %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr "، "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr "ارسال شده در %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr "، "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr "برچسب زده شده %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "پیامی بگذارید<span class=\"screen-reader-text\"> در %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99 template-parts/content-single.php:34
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/theme-info/about.php:9 inc/theme-info/about.php:10
+msgid "WP Commerce Setup"
+msgstr "راه اندازی WP Commerce"
+
+#. translators: theme version
+#: inc/theme-info/about.php:13
+#, php-format
+msgid "Welcome to %s - "
+msgstr "خوش آمدی به  %s - "
+
+#. translators: 1: theme name
+#: inc/theme-info/about.php:16
+#, php-format
+msgid ""
+"We hope this page will help you to setup %1$s with few clicks. We believe "
+"you will find it easy to use and perfect for your website development."
+msgstr ""
+"ما امیدواریم که این صفحه به شما در تنظیم %1$s با چند کلیک کمک خواهد کرد و "
+"معتقدیم که این، آسان ترین راه برای راه اندازی وب سایت شما می باشد."
+
+#: inc/theme-info/about.php:21
+msgid "Theme Details"
+msgstr "جزئیات قالب"
+
+#: inc/theme-info/about.php:25
+msgid "View Demo"
+msgstr "نمایش دمو"
+
+#: inc/theme-info/about.php:29
+msgid "Documentation"
+msgstr "مستندات"
+
+#: inc/theme-info/about.php:33 inc/theme-info/about.php:151
+#: inc/theme-info/class-about.php:603
+msgid "Upgrade to Pro"
+msgstr "ارتقا به نسخه حرفه ای"
+
+#: inc/theme-info/about.php:41
+msgid "Getting Started"
+msgstr "الان شروع کنید"
+
+#: inc/theme-info/about.php:42 inc/theme-info/about.php:58
+msgid "Recommended Actions"
+msgstr "اقدامات توصیه شده"
+
+#: inc/theme-info/about.php:43
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: inc/theme-info/about.php:49 inc/theme-info/about.php:139
+msgid "Theme Documentation"
+msgstr "مستندات قالب"
+
+#: inc/theme-info/about.php:50
+msgid "Find step by step instructions to setup theme easily."
+msgstr "دستورالعمل های گام به گام برای راه انداز آسان قالب."
+
+#: inc/theme-info/about.php:51
+msgid "View documentation"
+msgstr "مشاهده مستندات"
+
+#: inc/theme-info/about.php:59
+msgid ""
+"We recommend few steps to take so that you can get complete site like shown "
+"in demo."
+msgstr ""
+"ما چند گامی را پیشنهاد می کنیم تا بتوانید سایتی کامل را همانند نسخه ی دمو "
+"داشته باشید."
+
+#: inc/theme-info/about.php:60
+msgid "Check recommended actions"
+msgstr "بررسی اقدامات توصیه شده"
+
+#: inc/theme-info/about.php:67
+msgid "Customize Everything"
+msgstr ""
+
+#: inc/theme-info/about.php:68
+msgid "Start customizing every aspect of the website with customizer."
+msgstr "سفارشی سازی هر جلوه ای از سایتتان را از طریق سفارشی کردن شروع نمائید."
+
+#: inc/theme-info/about.php:69
+msgid "Go to Customizer"
+msgstr "به سفارشی سازی بروید"
+
+#: inc/theme-info/about.php:81
+msgid "Woocommerce"
+msgstr "ووکامرس"
+
+#: inc/theme-info/about.php:82
+msgid ""
+"Please install the Woocommerce plugin to add products and setup wp commerce "
+"theme. After activation go to Appearance >> WooCommerce."
+msgstr ""
+"لطفا افزونه ووکامرس را برای افزودن محصولات نصب نمائید. پس از فعال سازی به "
+"نمایش >> ووکامرس بروید."
+
+#: inc/theme-info/about.php:89
+msgid "WooCommerce Jetpack"
+msgstr ""
+
+#: inc/theme-info/about.php:90
+msgid ""
+"Please install the WooCommerce Jetpack plugin to setup Prices & Currencies "
+"of product. After activation go to Appearance >> Booster Settings."
+msgstr ""
+"لطفا افزونه WoCommerce Jetpack را نصب کنید تا بتوانید قیمت های محصول را "
+"تنظیم نمائید. پس از فعال سازی، به نمایش >> تنظیمات Booster بروید."
+
+#: inc/theme-info/about.php:96
+msgid "Setting Static Front Page"
+msgstr "تنظیم استاتیک صفحه اول"
+
+#: inc/theme-info/about.php:97
+msgid ""
+"Create a new page to display on front page ( Ex: Home ) and assign \"Home\" "
+"template. Select A static page then Front page and Posts page to display "
+"front page specific sections. Note: Static page will be set automatically "
+"when you import demo content."
+msgstr ""
+"یک صفحه جدید برای نمایش صفحه اول (مثلا: خانه) ایجاد نمائید و االگوی «صفحه "
+"اول» را به آن اختصاص دهید. توجه: صفحه اول استاتیک هنگام وارد کردن محتوای "
+"نسخه ی دمو به طور خودکار تنظیم خواهد شد."
+
+#: inc/theme-info/about.php:100
+msgid "Static Front Page"
+msgstr "صفحه اول استاتیک"
+
+#: inc/theme-info/about.php:103
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/theme-info/about.php:104
+msgid "Please install the Contact Form 7 plugin Before Importing Demo."
+msgstr "لطفا افزونه Contact Form 7 را قبل از وارد کردن نسخه ی دمو نصب نمائید."
+
+#: inc/theme-info/about.php:110
+msgid "NewsLetter Plugin"
+msgstr ""
+
+#: inc/theme-info/about.php:111
+msgid "Please install the Newsletter Plugin Before Importing Demo."
+msgstr "لطفا افزونه Newsletter را قبل از وارد کردن نسخه ی دمو نصب نمائید."
+
+#: inc/theme-info/about.php:118
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/theme-info/about.php:119
+msgid ""
+"Please install the One Click Demo Import plugin to import the demo content. "
+"After activation go to Appearance >> Import Demo Data and import it."
+msgstr ""
+"لطفا افزونه One Demo One Click را برای وارد کردن محتوای نسخه ی دمو نصب "
+"نمائید. پس از فعال سازی، به نمایش >> Data Demo Data بروید."
+
+#: inc/theme-info/about.php:130 inc/theme-info/about.php:133
+msgid "Contact Support"
+msgstr "تماس با پشتیبانی"
+
+#: inc/theme-info/about.php:132
+msgid ""
+"If you have any problem, feel free to create ticket on our dedicated Support "
+"forum."
+msgstr "اگر مشکلی دارید، یک تیکت به انجمن پشتیبانی اختصاصی ما ارسال نمائید."
+
+#: inc/theme-info/about.php:141
+msgid ""
+"Kindly check our theme documentation for detailed information and video "
+"instructions."
+msgstr ""
+"لطفا مستندات کامل ما به همراه دستورالعمل های ویدیوی را برای چگونگی راه "
+"اندازی و استفاده از قالب بررسی نمائید."
+
+#: inc/theme-info/about.php:142
+msgid "View Documentation"
+msgstr "مشاهده مستندات"
+
+#: inc/theme-info/about.php:148
+msgid "Customization Request"
+msgstr "درخواست سفارشی کردن"
+
+#: inc/theme-info/about.php:150
+#, php-format
+msgid ""
+"This is 100% free theme and has premium version.Either Upgrade to Pro or  "
+"Feel free to contact us any time if you need any customization service."
+msgstr ""
+"این قالب 100% f رایگان است و دارای نسخه پولی هم می باشد. هر زمانیکه احساس "
+"کردید امکانات نسخه رایگان قالب جوابگوی نیازهای شما نیست می توانید نسخه حرفه "
+"ای را خریداری نمائید."
+
+#: inc/theme-info/class-about.php:164
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgstr ""
+"خوش آمدی! با تشکر از شما برای انتخاب %1$s! برای استفاده کامل از بهترین حالات "
+"قالب لطفا از صفحه %2$sخوش آمدیدگویی%3$s بازدید نمائید."
+
+#: inc/theme-info/class-about.php:164
+#, php-format
+msgid "Get started with %s"
+msgstr "اکنون  %s را شروع کنید"
+
+#: inc/theme-info/class-about.php:561
+msgid "Install"
+msgstr "نصب"
+
+#: inc/theme-info/class-about.php:565
+msgid "Activate"
+msgstr "فعال سازی"
+
+#: inc/theme-info/class-about.php:569
+msgid "Deactivate"
+msgstr "غیرفعال سازی"
+
+#: inc/wc-breadcrumbs.php:264
+msgid "Browse:"
+msgstr "گزینش فایل:"
+
+#: inc/wc-breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:266
+msgid "Home"
+msgstr "خانه"
+
+#: inc/wc-breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr "پیدا نشد - 404"
+
+#: inc/wc-breadcrumbs.php:268
+msgid "Archives"
+msgstr "بایگانی"
+
+#: inc/wc-breadcrumbs.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr "نتایج جستجو برای %s"
+
+#: inc/wc-breadcrumbs.php:272
+#, php-format
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: inc/wc-breadcrumbs.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr "صفحه نظرات %s"
+
+#: inc/wc-breadcrumbs.php:276
+#, php-format
+msgid "Minute %s"
+msgstr "%s دقیقه"
+
+#: inc/wc-breadcrumbs.php:278
+#, php-format
+msgid "Week %s"
+msgstr "%s هفته"
+
+#: inc/wc-breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:788 inc/wc-breadcrumbs.php:817
+#: inc/wc-breadcrumbs.php:844 inc/wc-breadcrumbs.php:871
+#: inc/wc-breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:789 inc/wc-breadcrumbs.php:845
+#: inc/wc-breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:790 inc/wc-breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/wc-breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/widgets/wc-featured-products.php:17
+msgid "Display numbers of featured products from selective categories."
+msgstr "تعداد محصولات ویژه را از دسته بندی های انتخابی نمایش می دهد."
+
+#: inc/widgets/wc-featured-products.php:20
+msgid "WP Commerce: Featured Products"
+msgstr "محصولات ویژه"
+
+#: inc/widgets/wc-featured-products.php:32 inc/widgets/wc-hot-products.php:31
+#: inc/widgets/wc-new-arrival-products.php:31
+msgid "Product Count"
+msgstr "تعداد محصولات"
+
+#: inc/widgets/wc-featured-products.php:119
+msgid "No Featured products found"
+msgstr "محصولات ویژه ای یافت نشد"
+
+#: inc/widgets/wc-hot-products.php:16
+msgid "Display numbers of Hot products."
+msgstr "تعداد محصولات داغ را نمایش می دهد."
+
+#: inc/widgets/wc-hot-products.php:19
+msgid "WP Commerce: Hot Products"
+msgstr "محصولات داغ"
+
+#: inc/widgets/wc-hot-products.php:113
+msgid "No Hot products found"
+msgstr "هیچ محصول داغی یافت نشد"
+
+#: inc/widgets/wc-new-arrival-products.php:16
+msgid "Display numbers of New Arrival products from selective categories."
+msgstr "تعداد محصولات جدید را از دسته بندی های انتخابی نمایش می دهد."
+
+#: inc/widgets/wc-new-arrival-products.php:19
+msgid "WP Commerce: New Arrival Products"
+msgstr "محصولات جدید"
+
+#: inc/widgets/wc-new-arrival-products.php:113
+msgid "No New Arrival products found"
+msgstr "محصولات جدیدی یافت نشد"
+
+#: inc/widgets/wc-widget-fields.php:127 inc/widgets/wc-widget-fields.php:166
+msgid "- - Select Category - -"
+msgstr "- - دسته بندی را انتخاب کنید - -"
+
+#: inc/widgets/wc-widget-functions.php:24
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: inc/widgets/wc-widget-functions.php:26
+#: inc/widgets/wc-widget-functions.php:41
+#: inc/widgets/wc-widget-functions.php:56
+#: inc/widgets/wc-widget-functions.php:71
+#: inc/widgets/wc-widget-functions.php:86
+msgid "Add widgets here."
+msgstr "ابزارک ها را اینجا اضافه کنید."
+
+#: inc/widgets/wc-widget-functions.php:39
+msgid "Shop Sidebar"
+msgstr "سایدبار فروشگاه"
+
+#: inc/widgets/wc-widget-functions.php:54
+msgid "Frontpage Feature Products Section"
+msgstr "بخش محصولات ویژه صفحه اول"
+
+#: inc/widgets/wc-widget-functions.php:69
+msgid "Frontpage News Arrivals Section"
+msgstr "بخش محصولات جدید صفحه اول"
+
+#: inc/widgets/wc-widget-functions.php:84
+msgid "Frontpage Hot Products Section"
+msgstr "بخش محصولات داغ صفحه اول"
+
+#: inc/woocommerce.php:65
+msgid "Default sorting"
+msgstr "مرتب سازی پیش فرض"
+
+#: inc/woocommerce.php:66
+msgid "Sort by popularity"
+msgstr "مرتب سازی بر اساس محبوبیت"
+
+#: inc/woocommerce.php:67
+msgid "Sort by average rating"
+msgstr "مرتب سازی بر اساس میانگین امتیاز"
+
+#: inc/woocommerce.php:68
+msgid "Sort by newness"
+msgstr "مرتب سازی بر اساس جدیدترین ها"
+
+#: inc/woocommerce.php:69
+msgid "Sort by price: low to high"
+msgstr "مرتب سازی بر اساس قیمت: از ارزان به گران"
+
+#: inc/woocommerce.php:70
+msgid "Sort by price: high to low"
+msgstr "مرتب سازی بر اساس قیمت: از گران به ارزان"
+
+#: inc/woocommerce.php:77
+msgid "Relevance"
+msgstr "ارتباط"
+
+#. translators: %s: review count.
+#: inc/woocommerce.php:214
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "بازخوردهای مشتری %s"
+msgstr[1] "مشتری %s"
+
+#: inc/woocommerce.php:214
+msgid "Add a review"
+msgstr "بازخوردی ارسال کنید"
+
+#: inc/woocommerce.php:340
+msgid "Qty: "
+msgstr "تعداد: "
+
+#: inc/woocommerce.php:343
+msgid "Remove this item"
+msgstr "حذف این محصول"
+
+#: inc/woocommerce.php:349
+msgid "Subtotal"
+msgstr "کل مبلغ"
+
+#: inc/woocommerce.php:356
+msgid "View Cart"
+msgstr "مشاهده سبد خرید"
+
+#: inc/woocommerce.php:357
+msgid "Checkout"
+msgstr "پرداخت"
+
+#: inc/woocommerce.php:361
+msgid "No products in the cart."
+msgstr "محصولی در سبد خرید نیست."
+
+#: sections/wp-commerce-banner.php:40
+msgid "Explore"
+msgstr "بررسی و خرید"
+
+#: sections/wp-commerce-news.php:8
+msgid "View all"
+msgstr "مشاهده همه"
+
+#: sections/wp-commerce-news.php:33
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "پیدا نشد"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"آماده انتشار اولین پست خود هستید؟<a href=\"%1$s\">از اینجا شروع کنید</a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"با عرض پوزش، اما هیچ چیز مطابق با شرایط جستجوی شما یافت نشد. لطفا با برخی از "
+"کلمات کلیدی دوباره امتحان کنید."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"به نظر می رسد ما نمی توانیم چیزی که به دنبال آن هستید را بیابیم. شاید جستجو "
+"بتواند کمکتان کند."
+
+#: template-parts/content-page.php:33 template-parts/content-search.php:35
+#: template-parts/content-single.php:24 template-parts/content.php:36
+msgid "Comments"
+msgstr "نظرات"
+
+#: template-parts/content-page.php:36
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: template-parts/content.php:35
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: template-parts/header/header-bottom.php:11
+msgid "Top Categories"
+msgstr "دسته بندی های برتر"
+
+#: template-parts/header/header-bottom.php:27
+msgid "More Categories"
+msgstr "دسته بندی های بیشتر"
+
+#: template-parts/header/header-bottom.php:44
+msgid "Add a menu"
+msgstr "یک منو اضافه کنید"
+
+#: template-parts/header/header-middle.php:26
+msgid "All Categories"
+msgstr "همه دسته بندی ها"
+
+#: template-parts/header/header-middle.php:37
+msgid "Search"
+msgstr "جستجو"
+
+#: template-parts/header/header-top.php:21
+msgid "Welcome to"
+msgstr "خوش آمدی به"
+
+#: template-parts/header/header-top.php:25
+msgid "My Account"
+msgstr "حساب کاربری من"
+
+#: template-parts/header/header-top.php:26
+msgid "Logout"
+msgstr "خروج"
+
+#: template-parts/header/header-top.php:29
+msgid "Login / Register"
+msgstr "ورود / ثبت نام"
+
+#: woocommerce/loop/orderby.php:28
+msgid "Sort By:"
+msgstr "مرتب سازی بر اساس:"
+
+#: woocommerce/loop/orderby.php:31
+msgid "Shop order"
+msgstr "سفارش فروشگاه"
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:29
+#, php-format
+msgid "Showing the single %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] "نمایش همه %d نتایج"
+msgstr[1] "نمایش یک %d نتیجه"
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:35
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "نمایش %1$d&ndash;%2$d از %3$d نتیجه"
+msgstr[1] "نمایش یک %1$d&ndash;%2$d از %3$d نتیجه"
+
+#. Theme Name of the plugin/theme
+msgid "WP Commerce"
+msgstr "دبلیو پی کامرس"
+
+#. Theme URI of the plugin/theme
+msgid "https://wpcodethemes.com/downloads/wp-commerce/"
+msgstr "https://demo.hamyarwp.com/wp-commerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"WP Commerce is a beautifully designed e-commerce theme fully compatible with "
+"most popular WooCommerce plugin. The theme comes with a clean and elegant "
+"design and is developer friendly. It is fully responsive, translation ready, "
+"SEO friendly and compatible with WooCommerce."
+msgstr ""
+"WP Commerce یک قالب فروشگاهی وردپرسی با یک طراحی زیبا است که به طور کامل با "
+"افزونه محبوب ووکامرس سازگار است. کدنویسی تمیز و بهینه قالب به همراه "
+"ریسپانسیو بودن آن، امتیازات سئو را برای شما تضمین خواهد کرد."
+
+#. Author of the plugin/theme
+msgid "wpcodethemes"
+msgstr "همیار وردپرس"
+
+#. Author URI of the plugin/theme
+msgid "http://wpcodethemes.com/"
+msgstr "https://hamyarwp.com/"
+
+#. Template Name of the plugin/theme
+msgid "FrontPage"
+msgstr "صفحه اول"
+
+#~ msgid "Sorry! We could not found that page"
+#~ msgstr "متاسفیم! ما نمی توانیم این صفحه را پیدا کنیم"
+
+#~ msgid "Info"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Hooray! There are no recommended actions for you right now."
+#~ msgstr "هورا! هیچ اقدام توصیه شده ای برای شما وجود ندارد."
+
+#~ msgid "Show All Recommended Actions"
+#~ msgstr "نمایش تمامی اقدامات توصیه شده"
+
+#~ msgid "Active:"
+#~ msgstr "فعال سازی:"
+
+#~ msgid "Download"
+#~ msgstr "دانلود"
+
+#~ msgid "Live Preview"
+#~ msgstr "پیش نمایش زنده"
+
+#~ msgid ""
+#~ "%s is now installed and ready to use. We hope the following information "
+#~ "will help you. If you want to ask any query or just want to say hello, "
+#~ "you can always contact us. We hope you enjoy it! "
+#~ msgstr ""
+#~ "%s در حال حاضر نصب شده و آماده استفاده است. امیدواریم اطلاعات زیر به شما "
+#~ "کمک کند! "
+
+#~ msgid "View Pro Version"
+#~ msgstr "نمایش نسخه حرفه ای"
+
+#~ msgid "Rate This Theme"
+#~ msgstr "امتیاز به این قالب"
+
+#~ msgid "Useful Plugins"
+#~ msgstr "افزونه های مفید"
+
+#~ msgid "Changelog"
+#~ msgstr "تغییرات"
+
+#~ msgid "FAQ"
+#~ msgstr "سئوالات متداول"
+
+#~ msgid "Free VS PRO"
+#~ msgstr "رایگان در مقابل حرفه ای"
+
+#~ msgid "Step 1 : Read full documentation"
+#~ msgstr "مرحله 1: مستندات را کامل بخوانید"
+
+#~ msgid "Step 2 : Go to Customizer"
+#~ msgstr "مرحله 2: به سفارشی سازی قالب بروید"
+
+#~ msgid ""
+#~ "All Setting, Theme Options, Widgets and Menus are available via Customize "
+#~ "screen. Have a quick look or start customization!"
+#~ msgstr ""
+#~ "تمامی تنظیمات و گزینه های قالب، ابزارک ها و منوها از طریق صفحه سفارشی "
+#~ "سازی در دسترس هستند. پس سفارشی سازی را شروع کنید!"
+
+#~ msgid "Step 3: Setting Static Front Page"
+#~ msgstr "مرحله 3: تنظیم صفحه اول استاتیک"
+
+#~ msgid ""
+#~ "Select A static page than Front page and Posts page to enable Slider and "
+#~ "Home Main Content Area"
+#~ msgstr ""
+#~ "یک صفحه استاتیک را انتخاب کنید تا صفحه اول و صفحه پست ها را به آن ها "
+#~ "تخصیص داده شوند"
+
+#~ msgid "Step 4 : Setting Featured Section "
+#~ msgstr "مرحله 4: تنظیم بخش ویژه "
+
+#~ msgid ""
+#~ "Advanced Feature Section is available in this theme. You can add Feature "
+#~ "Main Slider and Feature Right Vertical Slider, also you can add widgets "
+#~ "before feature. Please do the Step 3 before this."
+#~ msgstr ""
+#~ "بخش ویژگی های پیشرفته برای این قالب موجود است. لطفا مرحله قبل (3) را "
+#~ "انجام دهید."
+
+#~ msgid "Step 5 : Setting Home Main Content Area "
+#~ msgstr "مرحله 5: تنظیم محتوای صفحه اصلی "
+
+#~ msgid ""
+#~ "You can Add, Edit, Remove or Drag, Drop, Reorder widgets on Home Main "
+#~ "Content Area. Please do the Step 3 before this."
+#~ msgstr ""
+#~ "شما می توانید ابزارک ها را در قسمت 'خانه' اضافه، ویرایش یا حذف کنید آن هم "
+#~ "تنها با رها کردن و کشیدن."
+
+#~ msgid "Home Main Content Area"
+#~ msgstr "محتوای صفحه خانه"
+
+#~ msgid "Do not forget to install WooCommerce"
+#~ msgstr "نصب ووکامرس را فراموش نکنید"
+
+#~ msgid "The theme is fully compatible with WooCommerce"
+#~ msgstr "قالب کاملا با ووکامرس سازگار است"
+
+#~ msgid "Install Recommended Plugins"
+#~ msgstr "نصب افزونه های توصیه شده"
+
+#~ msgid "Install Demo Setup"
+#~ msgstr "نصب دمو"
+
+#~ msgid ""
+#~ "For the demo content installation, install the Acme Demo Setup plugin and "
+#~ "other Recommended plugins, download demo content from %1$s here %2$s. "
+#~ "Then go to \"Acme Demo Setup\" and import demo. "
+#~ msgstr ""
+#~ "برای نصب محتوای دمو، افزونه Acme Demo Setup و دیگر افزونه های توصیه شده "
+#~ "را نصب کنید، محتوای نسخه ی دمو را از %1$s از  اینجا %2$s دانلود کنید. سپس "
+#~ "به \"Acme Demo Setup\" بروید و نسخه ی دمو را وارد کنید. "
+
+#~ msgid ""
+#~ "Select A static page than Front page and Posts page to enable Slider and "
+#~ "Home Main Content Area %1$s Static Front Page %2$s "
+#~ msgstr ""
+#~ "صفحه استاتیک صفحه اول %2$s و صفحه های پست را انتخاب کنید تا اسلایدر در "
+#~ "صفحه اصلی %1$s را فعال کنید "
+
+#~ msgid "How to Setup Site like Demo"
+#~ msgstr "نحوه راه اندازی سایتی همانند نسخه ی دمو"
+
+#~ msgid "Download Demo Content"
+#~ msgstr "دانلود محتوای دمو"
+
+#~ msgid "Feature Section is now Showing"
+#~ msgstr "بخش ویژگی ها در حال حاضر نمایش داده می شود"
+
+#~ msgid ""
+#~ "Please go to Setting => Reading, then Select A static page than Homepage "
+#~ "and Posts page to enable Slider and Home Main Content Area"
+#~ msgstr ""
+#~ "لطفا به تنظیمات => خواندن بروید، سپس یک صفحه استاتیک تنظیم کنید تا صفحه "
+#~ "اصلی به همراه اسلایدر به نمایش در بیایند"
+
+#~ msgid "Set Static Page"
+#~ msgstr "صفحه استاتیک تنظیم شده است"
+
+#~ msgid "Hide Restaurant Recipe by Acme Themes from footer ? "
+#~ msgstr "مایل هستید که نام سازنده این قالب در فوتر نمایش داده شود؟ "
+
+#~ msgid "Please visit the blog post to know more about it."
+#~ msgstr "لطفا از پست های وبلاگ دیدن کنید تا اطلاعات بیشتری کسب کنید."
+
+#~ msgid "Hide credit text on Footer"
+#~ msgstr "مخفی کردن متن Credit در فوتر"
+
+#~ msgid "Recent Updates of your Site ? "
+#~ msgstr "به روز رسانی های اخیر را می خواهید ببینید؟ "
+
+#~ msgid "Where i can get the recent updates of theme related updates ? "
+#~ msgstr "از کجا می توانم به روز رسانی های اخیر مربوط به قالب را دریافت کنم؟ "
+
+#~ msgid "Visit our site blog page"
+#~ msgstr "صفحه وبلاگ ما را ببینید"
+
+#~ msgid ""
+#~ "Got theme support question or found bug? Best place to ask your query is "
+#~ "our dedicated Support forum."
+#~ msgstr ""
+#~ "سئوال یا مشکلی در مورد قالب دارید؟ بهترین مکان برای پرس و جوهای شما،انجمن "
+#~ "پشتیبانی اختصاصی ما می باشد."
+
+#~ msgid "Read full documentation"
+#~ msgstr "مستندات را کامل بخوانید"
+
+#~ msgid "Need more features?"
+#~ msgstr "نیاز به ویژگی های بیشتر دارید؟"
+
+#~ msgid ""
+#~ "Upgrade to PRO version for more exciting features and Priority Support."
+#~ msgstr ""
+#~ "ارتقا به نسخه حرفه ای برای ویژگی های هیجان انگیز تر و پشتیبانی ویژه تر."
+
+#~ msgid "Got sales related question?"
+#~ msgstr "سئوال مد نظر شما مربوط به فروش چه می باشد؟"
+
+#~ msgid "Have any query before purchase, you are more than welcome to ask."
+#~ msgstr "قبل از خرید، می توانید از سئوالی که داشتید مطرح فرمائید."
+
+#~ msgid "Pre-sale Question?"
+#~ msgstr "سوال پیش از خرید؟"
+
+#~ msgid "Needed any customization for the theme, you can request from here."
+#~ msgstr ""
+#~ "هرگونه سفارشی سازی که برای قالب نیاز داشتید، می توانید از اینجا درخواست "
+#~ "خود را ارسال کنید."
+
+#~ msgid "All added custom widgets are ready for page builder plugin"
+#~ msgstr "تمام ابزارک های سفارشی سازی، اضافه شده و آماده هستند"
+
+#~ msgid "10+ Available"
+#~ msgstr "بیش از 10 مورد در دسترس است"
+
+#~ msgid "19+ Available"
+#~ msgstr "بیش از 19 مورد در دسترس است"
+
+#~ msgid "Widget Options"
+#~ msgstr "تنظیمات ابزارک"
+
+#~ msgid "Every widgets have multiple options to customize section"
+#~ msgstr "هر ابزارک دارای گزینه های متعدد برای سفارشی سازی می باشد"
+
+#~ msgid "Limited"
+#~ msgstr "محدود"
+
+#~ msgid "Multiple Options"
+#~ msgstr "تنظیمات چندگانه"
+
+#~ msgid "Google Fonts"
+#~ msgstr "فونت های گوگل"
+
+#~ msgid "Google fonts options for changing the overall site fonts "
+#~ msgstr "تنظیمات فونت گوگل برای تغییر کلی در فونت های سایت "
+
+#~ msgid "Unlimited +"
+#~ msgstr "نامحدود"
+
+#~ msgid "Color Options"
+#~ msgstr "تنظیمات رنگ"
+
+#~ msgid "Color options for changing overall site colors, Contact us"
+#~ msgstr "تنظیمات رنگ برای تغییر رنگ کلی سایت و صفحه تماس با ما"
+
+#~ msgid "Almost All parts"
+#~ msgstr "تقریبا همه قسمت ها"
+
+#~ msgid "Customize the header section as your need."
+#~ msgstr "بخش هدر را به هر شکلی که مایلید سفارشی سازی کنید."
+
+#~ msgid "Menu Options"
+#~ msgstr "تنظیمات منو"
+
+#~ msgid ""
+#~ "Lots of menu options are available to manage the menu section. Appearance "
+#~ "> Menus"
+#~ msgstr ""
+#~ "بسیاری از گزینه های منو برای مدیریت بخش منو در دسترس هستند. به بخش نمایش> "
+#~ "فهرست ها بروید"
+
+#~ msgid "Featured Selection"
+#~ msgstr "انتخاب ویژگی ها"
+
+#~ msgid "This is slider section. Check every options there"
+#~ msgstr "این بخش سایدبار است"
+
+#~ msgid "Unlimited Page"
+#~ msgstr "صفحه نامحدود"
+
+#~ msgid "Unlimited Page, Custom or Third Party"
+#~ msgstr "صفحه نامحدود یا سفارشی"
+
+#~ msgid "Featured Section Options"
+#~ msgstr "تنظیمات بخش ویژه ها"
+
+#~ msgid "Options to manage the sliders"
+#~ msgstr "گزینه هایی برای مدیریت سایدبار ها"
+
+#~ msgid "Sticky Sidebar"
+#~ msgstr "استیکی شدن سایدبار"
+
+#~ msgid "Enable/Disable sticky sidebars"
+#~ msgstr "فعال/غیرفعال سازی استیکی شدن سایدبار"
+
+#~ msgid "Blog/Archive Options"
+#~ msgstr "تنظیمات وبلاگ/بایگانی"
+
+#~ msgid ""
+#~ "Various Options are available for the blog and archive page management. "
+#~ "Check on Appearance > Customize > Layout/Design Options."
+#~ msgstr ""
+#~ "تنظیمات مختلف برای مدیریت وبلاگ و بایگانی در دسترس هستند. موارد فوق را در "
+#~ "قسمت نمایش> سفارشی سازی> طرح بندی /تنظیمات طراحی بررسی کنید."
+
+#~ msgid "Manage Every Entity"
+#~ msgstr "مدیریت هر المانی"
+
+#~ msgid ""
+#~ "Options to manage the social icons like facebook, instagram, linkedin etc."
+#~ msgstr ""
+#~ "تنظیماتی برای مدیریت آیکون شبکه های اجتماعی مانند فیس بوک، لینکدین، "
+#~ "اینستاگرام و غیره."
+
+#~ msgid "Theme Credit Link"
+#~ msgstr "لینک Credit قالب"
+
+#~ msgid "Options to disable to Powered by text on footer."
+#~ msgstr "تنظیماتی برای غیرفعال کردن طراح سایت در فوتر."
+
+#~ msgid "Enable/Disable"
+#~ msgstr "فعال/غیرفعال"
+
+#~ msgid "Enable/Disable/Custom"
+#~ msgstr "فعال/غیرفعال/سفارشی"
+
+#~ msgid "Own Credit Link"
+#~ msgstr "لینک Credit شخصی"
+
+#~ msgid "Write your own credit text."
+#~ msgstr "متن Credit خود را بنویسید."
+
+#~ msgid "Social Icons"
+#~ msgstr "آیکون شبکه های اجتماعی"
+
+#~ msgid "Enter the URL for social icons. "
+#~ msgstr "آدرس مربوط به آیکون شبکه های اجتماعی را وارد کنید. "
+
+#~ msgid "Unlimited"
+#~ msgstr "نامحدود"
+
+#~ msgid "Unlimited with multiple Options"
+#~ msgstr "با تنظیمات نامحدود و گزینه های متعدد"
+
+#~ msgid "Intro Loader Options"
+#~ msgstr "تنظیمات Loader"
+
+#~ msgid "It will load before the site loaded completely."
+#~ msgstr "این بار سایت به طور کامل بارگذاری خواهد شد."
+
+#~ msgid "Related Post Options"
+#~ msgstr "تنظیمات پست های مرتبط"
+
+#~ msgid "Related post will appear on single post of each blog article"
+#~ msgstr "مقاله مربوطه در تمام صفحات پست ظاهر می شود"
+
+#~ msgid "Author Info Options"
+#~ msgstr "تنظیمات اطلاعات نویسنده"
+
+#~ msgid "This will appear on single post."
+#~ msgstr "این در صفحه پست ظاهر می شود."
+
+#~ msgid "Feature Image Options"
+#~ msgstr "تنظیمات ویژگی های تصویر"
+
+#~ msgid "Featured image options for the single page and post."
+#~ msgstr "تنظیمات تصویر ویژه برای صفحات."
+
+#~ msgid "Manage As Your Need"
+#~ msgstr "مدیریت نیازهای شما"
+
+#~ msgid "Navigation Options"
+#~ msgstr "تنظیمات ناوبری"
+
+#~ msgid ""
+#~ "Post Navigation means, previous post and next post. Check on single post."
+#~ msgstr "ناوبری پست قبلی و پست بعدی."
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Manage the comment section on single post."
+#~ msgstr "بخش نظرات را برای صفحه پست ها مدیریت کنید."
+
+#~ msgid "Show/Hide Comment"
+#~ msgstr "نمایش/پنهان دیدگاه"
+
+#~ msgid "Options to show hide comments on page and post."
+#~ msgstr "تنظیماتی برای نشان دادن یا پنهان کردن نظرات در صفحات."
+
+#~ msgid "Advanced options for manage the Breadcrumb."
+#~ msgstr "تنظیمات پیشرفته برای مدیریت Breadcrumb."
+
+#~ msgid "Video Post On Featured"
+#~ msgstr "ویدیو در بخش ویژه ها"
+
+#~ msgid "Create your video post easily from Youtube and Vimeo video."
+#~ msgstr "ویدئوی خود را به راحتی در یوتیوب و Vimeo ایجاد کنید."
+
+#~ msgid "Add Own Video On Featured"
+#~ msgstr "افزودن ویدیو در بخش ویژه ها"
+
+#~ msgid "Single Post Options"
+#~ msgstr "تنظیمات صفحه پست ها"
+
+#~ msgid "Manage every entity of single post."
+#~ msgstr "هر موجودیتی را در صفحه پست ها مدیریت کنید."
+
+#~ msgid "Featured Image Size"
+#~ msgstr "سایز تصاویر ویژه"
+
+#~ msgid "Select the size of the featured image on the single post."
+#~ msgstr "اندازه تصویر برجسته را در صفحه پست ها انتخاب کنید."
+
+#~ msgid ""
+#~ "Global and Individual sidebars are available. You can easily orveride it "
+#~ "from single page/post."
+#~ msgstr ""
+#~ "ستون های فرعی در دسترس هستند شما می توانید آن را به راحتی از صفحاتتان "
+#~ "بردارید."
+
+#~ msgid "Global Options"
+#~ msgstr "تنظیمات عمومی"
+
+#~ msgid "Advanced Global And Individuals"
+#~ msgstr "اشخاص حقیقی و حقوقی"
+
+#~ msgid "Menu and Logo Location"
+#~ msgstr "مکان منو و لوگو"
+
+#~ msgid "Position of menu and logo section on header."
+#~ msgstr "موقعیت منو و لوگو در هدر."
+
+#~ msgid "3 Position Left, Right and Middle"
+#~ msgstr "3 موقعیت چپ، راست و مرکز"
+
+#~ msgid "Popup Widget on Header"
+#~ msgstr "ابزارک پاپ آپ در هدر"
+
+#~ msgid "Options to popup widget via Popup Widget Area on Header Top Section."
+#~ msgstr ""
+#~ "تنظیمات مربوط به ابزارک از طریق پاپ آپ در بخش هدر بالا نمایش داده می شود."
+
+#~ msgid "Add your required Widget"
+#~ msgstr "افزودن ابزارک های مورد نیاز شما"
+
+#~ msgid "Multiple Header Type"
+#~ msgstr "نوع هدر چندگانه"
+
+#~ msgid "Different Types of Header."
+#~ msgstr "انواع مختلف هدر."
+
+#~ msgid "3 Options"
+#~ msgstr "3 تنظیمات"
+
+#~ msgid "Create WooCommerce shop easily with the help of WooCommerce plugin."
+#~ msgstr "فروشگاهتان را به راحتی با کمک افزونه ووکامرس ایجاد کنید."
+
+#~ msgid "Translation"
+#~ msgstr "ترجمه"
+
+#~ msgid "Both theme are translation ready."
+#~ msgstr "هر دو قالب آماده ترجمه هستند."
+
+#~ msgid "SEO"
+#~ msgstr "سئو"
+
+#~ msgid "Developed with high skilled SEO tools."
+#~ msgstr "طراحی شده توسط متخصصینی که به ابزارهای SEO اشراف دارند."
+
+#~ msgid "Widget Area On Footer"
+#~ msgstr "مکان ابزارک در فوتر"
+
+#~ msgid "Change the number of footers on footer area as you need."
+#~ msgstr "قسمت پایین تر فوتر به همان اندازه که نیاز دارید تغییر خواهد کرد."
+
+#~ msgid "Support Forum"
+#~ msgstr "انجمن های پشتیبانی"
+
+#~ msgid ""
+#~ "Highly dedicated support team are assigned for your help. Try this today."
+#~ msgstr ""
+#~ "تیم پشتیبانی مجربی را برای کمک به شما اختصاص داده ایم. می توانید امتحان "
+#~ "کنید."
+
+#~ msgid "Second"
+#~ msgstr "دومین"
+
+#~ msgid "Dedicated With High Priority"
+#~ msgstr "اختصاص داده شده با اولویت بالا"
+
+#~ msgid "Top Menu ( Support First Level Only )"
+#~ msgstr "منوی بالا (پشتیبانی فقط برای سطح اول)"
+
+#~ msgid "Primary Menu"
+#~ msgstr "منوی اصلی"
+
+#~ msgid "One Page Menu for Front Page"
+#~ msgstr "صفحه منو برای صفحه اول"
+
+#~ msgid "Footer Menu ( Support First Level Only )"
+#~ msgstr "منوی فوتر (پشتیبانی فقط برای سطح اول)"
+
+#~ msgid "Leave a comment"
+#~ msgstr "پیام بگذارید"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 دیدگاه"
+
+#~ msgid "% Comments"
+#~ msgstr "% دیدگاه"
+
+#~ msgid "Edit %s"
+#~ msgstr "ویرایش %s"
+
+#~ msgid "Select"
+#~ msgstr "انتخاب"
+
+#~ msgid "Classic"
+#~ msgstr "کلاسیک"
+
+#~ msgid "Transparent"
+#~ msgstr "شفافیت"
+
+#~ msgid "Background Image"
+#~ msgstr "تصویر پس زمینه"
+
+#~ msgid "Normal Image"
+#~ msgstr "تصویر استاندارد"
+
+#~ msgid "Disable"
+#~ msgstr "غیرفعال کردن"
+
+#~ msgid "Popup Widgets ( Booking Form )"
+#~ msgstr "ابزارک پاپ آپ (فرم رزرو)"
+
+#~ msgid "One Link"
+#~ msgstr "لینک اول"
+
+#~ msgid "on Top Left"
+#~ msgstr "در بالا سمت چپ"
+
+#~ msgid "on Top Right"
+#~ msgstr "در بالا سمت راست"
+
+#~ msgid "Alternate"
+#~ msgstr "یکی در میان"
+
+#~ msgid "Left"
+#~ msgstr "چپ"
+
+#~ msgid "Right"
+#~ msgstr "راست"
+
+#~ msgid "Center"
+#~ msgstr "وسط"
+
+#~ msgid "Full Screen Background"
+#~ msgstr "پس زمینه تمام صفحه"
+
+#~ msgid "Responsive Image"
+#~ msgstr "تصویر ریسپانسیو"
+
+#~ msgid "Right Sidebar"
+#~ msgstr "سایدبار راست"
+
+#~ msgid "Left Sidebar"
+#~ msgstr "سایدبار چپ"
+
+#~ msgid "Both Sidebar"
+#~ msgstr "هر دو سایدبار"
+
+#~ msgid "Middle Column"
+#~ msgstr "ستون مرکزی"
+
+#~ msgid "Excerpt"
+#~ msgstr "چکیده"
+
+#~ msgid "Content"
+#~ msgstr "محتوا"
+
+#~ msgid "No Image"
+#~ msgstr "بدون تصویر"
+
+#~ msgid "full (original)"
+#~ msgstr "کامل (اصلی)"
+
+#~ msgid "Numeric"
+#~ msgstr "عددی"
+
+#~ msgid "Yoast"
+#~ msgstr "یئوست"
+
+#~ msgid "Book Table"
+#~ msgstr "جدول رزرو"
+
+#~ msgid "Send Us a Mail"
+#~ msgstr "یک ایمیل برای ما بفرستید"
+
+#~ msgid "domain@example.com "
+#~ msgstr "info@test.com "
+
+#~ msgid "Our Location"
+#~ msgstr "موقعیت ما"
+
+#~ msgid "Elmonte California"
+#~ msgstr "تهران - پاسداران"
+
+#~ msgid "Call Us"
+#~ msgstr "با ما تماس بگیرید"
+
+#~ msgid "01-23456789-10"
+#~ msgstr "02174553000"
+
+#~ msgid "Office Hours"
+#~ msgstr "ساعات اداری"
+
+#~ msgid "8 hours per day"
+#~ msgstr "8 ساعت در روز"
+
+#~ msgid "&copy; All right reserved"
+#~ msgstr "&copy; تمامی حقوق محفوظ است"
+
+#~ msgid "Blog"
+#~ msgstr "وبلاگ"
+
+#~ msgid "Booking Quote"
+#~ msgstr "جدول رزرو"
+
+#~ msgid "Add Icon"
+#~ msgstr "افزودن آیکون"
+
+#~ msgid "Search Icon"
+#~ msgstr "جستجوی آیکون"
+
+#~ msgid "Remove Image"
+#~ msgstr "حذف تصویر"
+
+#~ msgid "Home Main Content Area "
+#~ msgstr "ناحیه محتوای صفحه اصلی "
+
+#~ msgid "Animation"
+#~ msgstr "انیمیشن"
+
+#~ msgid "Disable animation"
+#~ msgstr "غیرفعال کردن انیمیشن"
+
+#~ msgid ""
+#~ "Check this to disable overall site animation effect provided by theme"
+#~ msgstr "این انیمیشن را به طور کلی برای این قالب غیرفعال کنید"
+
+#~ msgid "Category/Archive Sidebar Layout"
+#~ msgstr "لایه بندی سایدبار دسته بندی/بایگانی"
+
+#~ msgid "Sidebar Layout for listing pages like category, author etc"
+#~ msgstr "لایه بندی سایدبار برای صفحات دسته بندی ها، نویسنده و غیره"
+
+#~ msgid "Default Blog/Archive Layout"
+#~ msgstr "لایه بندی پیش فرض وبلاگ/بایگانی"
+
+#~ msgid "Blog/Archive Feature Image Size"
+#~ msgstr "سایز تصویر وبلاگ/بایگانی"
+
+#~ msgid "Blog/Archive Content From"
+#~ msgstr "محتوای وبلاگ/بایگانی از"
+
+#~ msgid "Except Length"
+#~ msgstr "طول چکیده"
+
+#~ msgid "Read More Text"
+#~ msgstr "متن ادامه مطلب"
+
+#~ msgid "Pagination Options"
+#~ msgstr "تنظیمات صفحه بندی"
+
+#~ msgid "Blog and Archive Pages Pagination"
+#~ msgstr "صفحه بندی صفحات وبلاگ و بایگانی"
+
+#~ msgid "Basic Color"
+#~ msgstr "رنگ پایه"
+
+#~ msgid "Header Top Background Color"
+#~ msgstr "رنگ پس زمینه بالای هدر"
+
+#~ msgid "Also used as secondary color"
+#~ msgstr "به عنوان رنگ ثانویه استفاده می شود"
+
+#~ msgid "Footer Background Color"
+#~ msgstr "رنگ پس زمینه فوتر"
+
+#~ msgid "Footer Bottom Background Color"
+#~ msgstr "رنگ پس زمینه پائین فوتر"
+
+#~ msgid "Link Color"
+#~ msgstr "رنگ لینک"
+
+#~ msgid "Link Hover Color"
+#~ msgstr "رنگ هاور لینک"
+
+#~ msgid "Layout/Design Option"
+#~ msgstr "تنظیمات لایه بندی/طراحی"
+
+#~ msgid "Hide Front Page Content"
+#~ msgstr "مخفی کردن محتوای صفحه اول"
+
+#~ msgid ""
+#~ "You may want to hide front page content and want to show only Feature "
+#~ "section and Home Widgets. Check this to hide front page content."
+#~ msgstr ""
+#~ "شما ممکن است بخواهید محتوای صفحه اول را پنهان کنید و بخواهید تنها قسمت "
+#~ "ویژگی و صفحه اصلی ابزارک را نشان دهید. برای مخفی کردن محتوای صفحه اول، "
+#~ "این را بررسی کنید."
+
+#~ msgid "Hide Front Page Header"
+#~ msgstr "مخفی کردن هدر صفحه اول"
+
+#~ msgid ""
+#~ "You may want to hide front page header and want to show only Feature "
+#~ "section and Home Widgets. Check this to hide front page Header."
+#~ msgstr ""
+#~ "ممکن است بخواهید هدر صفحه را مخفی کنید و فقط بخش ویژگی ها و ابزارک های "
+#~ "صفحه اصلی را نمایش دهید."
+
+#~ msgid "Front/Home Sidebar Layout"
+#~ msgstr "لایه بندی سایدبار صفحه اصلی"
+
+#~ msgid "Default Page/Post Sidebar Layout"
+#~ msgstr "لایه بندی پیش فرض سایدبار صفحات"
+
+#~ msgid "Single Page/Post Sidebar"
+#~ msgstr "سایدبار صفحات"
+
+#~ msgid ""
+#~ "Feature section will display on front/home page. Feature Section includes "
+#~ "Feature Slider and Feature Column.%1$s Note : Please go to %2$s \"Static "
+#~ "Front Page\"%3$s setting, Select \"A static page\" then \"Front page\" "
+#~ "and \"Posts page\" to enable it"
+#~ msgstr ""
+#~ "بخش ویژگی ها در صفحه اول نمایش داده خواهد شد. بخش ویژگی ها شامل اسلایدر و "
+#~ "ستون های ویژه است.%1$s توجه: لطفا به %2$s \"صفحه اول استاتیک\" و تنظیمات "
+#~ "%3$s بروید و آنرا فعال کنید"
+
+#~ msgid "Customize your awesome site feature section "
+#~ msgstr "بخش ویژگی های سایت خود را سفارشی سازی کنید "
+
+#~ msgid "Feature Slider Selection"
+#~ msgstr "انتخاب اسلایدر بخش ویژگی"
+
+#~ msgid "Select Slider Page"
+#~ msgstr "اسلایدر صفحه را انتخاب کنید"
+
+#~ msgid "Select Slide of Slider"
+#~ msgstr "اسلاید مربوط به اسلایدر را انتخاب کنید"
+
+#~ msgid "Add New Slide"
+#~ msgstr "اسلاید جدید اضافه کنید"
+
+#~ msgid "Select Page For Slide"
+#~ msgstr "صفحه ای برای اسلاید انتخاب کنید"
+
+#~ msgid "Button One Text"
+#~ msgstr "متن دکمه اول"
+
+#~ msgid "Button One Link"
+#~ msgstr "لینک دکمه اول"
+
+#~ msgid "Button Two Text"
+#~ msgstr "متن دکمه دوم"
+
+#~ msgid "Button Two Link"
+#~ msgstr "لینک دکمه دوم"
+
+#~ msgid "Enable Animation"
+#~ msgstr "فعال کردن انیمیشن"
+
+#~ msgid "Display Title"
+#~ msgstr "نمایش عنوان"
+
+#~ msgid "Display Excerpt"
+#~ msgstr "نمایش چکیده"
+
+#~ msgid "Feature Slider Image Display Options"
+#~ msgstr "تنظیمات نمایش تصویر اسلایدر ویژه"
+
+#~ msgid "Slider Text Align"
+#~ msgstr "ترازبندی متن اسلایدر"
+
+#~ msgid "Slider Scroll Text"
+#~ msgstr "متن اسلایدر"
+
+#~ msgid "Slider Scroll Link"
+#~ msgstr "لینک اسلایدر"
+
+#~ msgid "Footer Background Image"
+#~ msgstr "تصویر پس زمینه فوتر"
+
+#~ msgid "Bottom Copyright Section"
+#~ msgstr "بخش پائین کپی رایت"
+
+#~ msgid "Copyright Text"
+#~ msgstr "متن کپی رایت"
+
+#~ msgid "Footer Copyright Beside Option"
+#~ msgstr "تنظیم کپی رایت فوتر"
+
+#~ msgid " Enable Theme Name And Powered By Text "
+#~ msgstr " نام قالب و نام طراح قالب را فعال کنید "
+
+#~ msgid "Customize your awesome site footer "
+#~ msgstr "فوتر سایت خود را سفارشی سازی کنید "
+
+#~ msgid "Basic Info Number Display"
+#~ msgstr "نمایش تعداد اطلاعات پایه"
+
+#~ msgid "First Info"
+#~ msgstr "اطلاعات اول"
+
+#~ msgid "Icon"
+#~ msgstr "آیکون"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Very Short Description"
+#~ msgstr "توضیحات بسیار کوتاه"
+
+#~ msgid "Second Info"
+#~ msgstr "اطلاعات دوم"
+
+#~ msgid "Third Info"
+#~ msgstr "اطلاعات سوم"
+
+#~ msgid "Forth Info"
+#~ msgstr "اطلاعات چهارم"
+
+#~ msgid "Display Logo"
+#~ msgstr "نمایش لوگو"
+
+#~ msgid "Display Site Title"
+#~ msgstr "نمایش عنوان سایت"
+
+#~ msgid "Display Site Tagline"
+#~ msgstr "نمایش شعار سایت"
+
+#~ msgid "Customize your awesome site header "
+#~ msgstr "هدر سایت خود را سفارشی سازی کنید "
+
+#~ msgid "Applied to header image of inner pages."
+#~ msgstr "کارایی تصویر هدر در صفحات داخلی."
+
+#~ msgid "Inner Page Header Section Height"
+#~ msgstr "ارتفاع بخش داخلی هدر"
+
+#~ msgid ""
+#~ "Control the height of Header section. The minimum height is 100px and "
+#~ "maximium height is 500px"
+#~ msgstr ""
+#~ "ارتفاع بخش هدر را کنترل کنید. حداقل ارتفاع 100px و حداکثر ارتفاع 500px است"
+
+#~ msgid "Header Image Display"
+#~ msgstr "نمایش تصویر هدر"
+
+#~ msgid "Header Top"
+#~ msgstr "هدر بالا"
+
+#~ msgid "Enable Header Top Options"
+#~ msgstr "فعال کردن گزینه های بالای هدر"
+
+#~ msgid "Display Different Element on Top Right or Left"
+#~ msgstr "نمایش عناصر مختلف در بالای سمت چپ یا راست"
+
+#~ msgid ""
+#~ "Add/Edit Menu Items from %1$s here%2$s and select Menu Location : Top "
+#~ "Menu ( Support First Level Only ) "
+#~ msgstr ""
+#~ "افزودن/ ویرایش آیتم های منو از %1$s اینجا%2$s و انتخاب مکان محل منو: منوی "
+#~ "بالا (پشتیبانی تنها سطح اول) "
+
+#~ msgid "Top Menu Display"
+#~ msgstr "نمایش منوی بالا"
+
+#~ msgid "Add/Edit Info Items from %1$s here%2$s"
+#~ msgstr "افزودن/ویرایش آیتم های اطلاعات از %1$sاینجا%2$s"
+
+#~ msgid "Top Info Display"
+#~ msgstr "نمایش اطلاعات بالا"
+
+#~ msgid "Add/Edit Social Items from %1$s here%2$s "
+#~ msgstr "افزودن/ویرایش آیتم های شبکه های اجتماعی از %1$sاینجا%2$s "
+
+#~ msgid "Social Display"
+#~ msgstr "نمایش شبکه های اجتماعی"
+
+#~ msgid "Menu Display Options"
+#~ msgstr "تنظیمات نمایش منو"
+
+#~ msgid "Enable Sticky Menu"
+#~ msgstr "فعال سازی استیکی شدن منو"
+
+#~ msgid "Enable Cart"
+#~ msgstr "فعال سازی سبد خرید"
+
+#~ msgid "Special Button On Menu Right"
+#~ msgstr "دکمه ویژه در سمت راست منو"
+
+#~ msgid "Button Options"
+#~ msgstr "تنظیمات دکمه"
+
+#~ msgid "Button Title"
+#~ msgstr "عنوان دکمه"
+
+#~ msgid "Add Popup Widget from %1$s here%2$s "
+#~ msgstr "افزودن ابزارک پاپ آپ از %1$sاینجا%2$s "
+
+#~ msgid "Button Link"
+#~ msgstr "لینک دکمه"
+
+#~ msgid "Popup Widgets"
+#~ msgstr "ابزارک های پاپ آپ"
+
+#~ msgid "Theme Options"
+#~ msgstr "تنظیمات قالب"
+
+#~ msgid "Customize your awesome site with theme options "
+#~ msgstr "با تنظیمات سفارشی سازی سایتی زیبا راه اندازی کنید "
+
+#~ msgid "Search Placeholder"
+#~ msgstr "Placeholder جستجو"
+
+#~ msgid "Social Options Selection"
+#~ msgstr "انتخاب گزینه های شبکه های اجتماعی"
+
+#~ msgid "Select Social Icons and enter link"
+#~ msgstr "آیکون شبکه های اجتماعی و لینک هایشان را وارد کنید"
+
+#~ msgid "Social Icon"
+#~ msgstr "آیکون شبکه های اجتماعی"
+
+#~ msgid "Add New Icon"
+#~ msgstr "افزودن آیکون جدید"
+
+#~ msgid "Select Icon"
+#~ msgstr "انتخاب آیکون"
+
+#~ msgid "Enter Link"
+#~ msgstr "لینک را وارد کنید"
+
+#~ msgid "Open in New Window"
+#~ msgstr "باز شدن در تب جدید"
+
+#~ msgid "Feature Image Option"
+#~ msgstr "تنظیم ویژگی تصویر"
+
+#~ msgid "Image Size"
+#~ msgstr "سایز تصویر"
+
+#~ msgid "Single Header Title"
+#~ msgstr "عنوان هدر صفحه پست ها"
+
+#~ msgid "Single Post Option"
+#~ msgstr "تنظیم پست تکی"
+
+#~ msgid "Shop Archive Sidebar Layout"
+#~ msgstr "لایه بندی سایدبار بایگانی فروشگاه"
+
+#~ msgid "Single Product"
+#~ msgstr "تک محصول"
+
+#~ msgid "Single Product Sidebar Layout"
+#~ msgstr "لایه بندی سایدبار محصول تکی"
+
+#~ msgid "WooCommerce Options"
+#~ msgstr "تنظیمات ووکامرس"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "نظر شما در انتظار تایید است."
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s در %2$s"
+
+#~ msgid "(Edit)"
+#~ msgstr "(ویرایش)"
+
+#~ msgid "Normal Column"
+#~ msgstr "ستون استاندارد"
+
+#~ msgid "Carousel Column"
+#~ msgstr "ستون چرخشی"
+
+#~ msgid "Normal"
+#~ msgstr "استاندارد"
+
+#~ msgid "Feature"
+#~ msgstr "ویژگی"
+
+#~ msgid "All posts"
+#~ msgstr "تمامی پست ها"
+
+#~ msgid "Tags"
+#~ msgstr "برچسب ها"
+
+#~ msgid "None"
+#~ msgstr "هیچ"
+
+#~ msgid "ID"
+#~ msgstr "شناسه"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ"
+
+#~ msgid "Modified Date"
+#~ msgstr "تاریخ اصلاح شده"
+
+#~ msgid "Random"
+#~ msgstr "تصادفی"
+
+#~ msgid "Comment Count"
+#~ msgstr "تعداد نظرات"
+
+#~ msgid "Menu Order"
+#~ msgstr "مرتب سازی منو"
+
+#~ msgid "ASC"
+#~ msgstr "صعودی"
+
+#~ msgid "DESC"
+#~ msgstr "نزولی"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Website URL"
+#~ msgstr "آدرس وبسایت"
+
+#~ msgid "Add Comment"
+#~ msgstr "افزودن دیدگاه"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "پیام بگذارید"
+
+#~ msgid "%1$s by %2$s"
+#~ msgstr "%1$s توسط %2$s"
+
+#~ msgid "Skip to content"
+#~ msgstr "پرش به محتوا"
+
+#~ msgid "AT Restaurant Recipe Widgets"
+#~ msgstr "ابزارک های Restaurant Recipe"
+
+#~ msgid "Restaurant Recipe - Hotel and Restaurant Theme"
+#~ msgstr "قالبی برای هتل و رستوران"
+
+#~ msgid "Delicious Food, Quality Services and Friendly People"
+#~ msgstr "غذای خوشمزه، خدمات با کیفیت و پرسنل خوش برخورد"
+
+#~ msgid "Page Builder by SiteOrigin"
+#~ msgstr "ساخت صفحه توسط SiteOrigin"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "نصب افزونه های مورد نیاز"
+
+#~ msgid "Install Plugins"
+#~ msgstr "نصب افزونه ها"
+
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "نصب افزونه: %s"
+
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "به روز رسانی افزونه: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "در شناسایی API افزونه اشتباهی رخ داد."
+
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "این قالب نیاز به افزونه های زیر دارد:  %1$s."
+#~ msgstr[1] "این قالب نیاز به افزونه زیر دارد:  %1$s."
+
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "این قالب، افزونه های زیر را توصیه می کند: %1$s."
+#~ msgstr[1] "این قالب، افزونه زیر را توصیه می کند: %1$s."
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "افزونه های زیر باید به آخرین نسخه به روز رسانی شوند تا اطمینان حاصل شود "
+#~ "حداکثر سازگاری با این قالب را دارند: %1$s."
+#~ msgstr[1] ""
+#~ "افزونه زیر باید به آخرین نسخه به روز رسانی شود تا اطمینان حاصل شود حداکثر "
+#~ "سازگاری با این قالب را دارد: %1$s."
+
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "به روز رسانی های موجود برای افزونه های زیر موجود است: %1$s."
+#~ msgstr[1] "یک به روز رسانی در دسترس است: %1$s."
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "افزونه های مورد نیاز زیر در حال حاضر غیر فعال هستند: %1$s."
+#~ msgstr[1] "افزونه مورد نیاز زیر در حال حاضر غیر فعال است: %1$s."
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "افزونه های توصیه شده زیر در حال حاضر غیر فعال هستند: %1$s."
+#~ msgstr[1] "افزونه توصیه شده زیر در حال حاضر غیر فعال است: %1$s."
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "نصب افزونه ها را شروع کنید"
+#~ msgstr[1] "نصب افزونه را شروع کنید"
+
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "به روز رسانی افزونه ها را شروع کنید"
+#~ msgstr[1] "به روز رسانی افزونه را شروع کنید"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "فعال سازی افزونه ها را شروع کنید"
+#~ msgstr[1] "فعال سازی افزونه را شروع کنید"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "بازگشت به نصب افزونه های مورد نیاز"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "بازگشت به پیشخوان"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "افزونه با موفقیت فعال شد."
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "افزونه های زیر با موفقیت فعال شد:"
+#~ msgstr[1] "افزونه زیر با موفقیت فعال شد:"
+
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "هیچ اقدامی انجام نشده است. پلاگین %1$s در حال حاضر فعال است."
+
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "افزونه فعال نیست. نسخه بالاتر %s برای این قالب مورد نیاز است. لطفا افزونه "
+#~ "را به روز رسانی کنید."
+
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "تمامی افزونه ها نصب و فعال سازی شده اند. %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "این اطلاعیه را رد کنید"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "یک یا چند افزونه ی توصیه برای نصب، به روز رسانی یا فعال سازی وجود دارد."
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr "لطفا برای کمک به مدیر این سایت با ایشان تماس بگیرید."
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr "این افزونه باید به روز شود تا با قالب شما سازگار باشد."
+
+#~ msgid "Update Required"
+#~ msgstr "نیازمند به روز رسانی"
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr "پوشه های افزونه از راه دور با تغییر نام کار نمی کنند."
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "لطفا با ارائه دهنده افزونه تماس بگیرید و از او بخواهید افزونه را با توجه "
+#~ "به دستورالعمل وردپرس پکیج کند."
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "بسته افزونه از راه دور شامل بیش از یک فایل است و در یک پوشه پکیج نمی شوند."
+
+#~ msgctxt "plugin A *and* plugin B"
+#~ msgid "and"
+#~ msgstr "و"
+
+#~ msgid "Required"
+#~ msgstr "مورد نیاز"
+
+#~ msgid "Recommended"
+#~ msgstr "توصیه شده"
+
+#~ msgid "WordPress Repository"
+#~ msgstr "مخزن وردپرس"
+
+#~ msgid "External Source"
+#~ msgstr "منبع خارجی"
+
+#~ msgid "Not Installed"
+#~ msgstr "نصب نشد"
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "نصب شد اما فعال نشده است"
+
+#~ msgid "Active"
+#~ msgstr "فعال سازی"
+
+#~ msgid "Required Update not Available"
+#~ msgstr "به روز رسانی مورد نیاز در دسترس نیست"
+
+#~ msgid "Requires Update"
+#~ msgstr "نیازمند به روز رسانی"
+
+#~ msgid "Update recommended"
+#~ msgstr "به روز رسانی توصیه می شود"
+
+#~ msgctxt "Install/Update Status"
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s، %2$s"
+
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "برای نصب برای فعال سازی <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "برای نصب برای فعال سازی <span class=\"count\">(%s)</span>"
+
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "به روز رسانی در دسترس <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "به روز رسانی در دسترس <span class=\"count\">(%s)</span>"
+
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "برای فعال سازی <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "برای فعال سازی <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "as in: \"version nr unknown\""
+#~ msgid "unknown"
+#~ msgstr "ناشناس"
+
+#~ msgid "Installed version:"
+#~ msgstr "نسخه نصب شده:"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "حداقل نسخه مورد نیاز:"
+
+#~ msgid "Available version:"
+#~ msgstr "نسخه موجود:"
+
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "افزونه ای برای نصب، به روز رسانی یا فعال سازی وجود ندارد."
+
+#~ msgid "Plugin"
+#~ msgstr "افزونه"
+
+#~ msgid "Source"
+#~ msgstr "منبع"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "Version"
+#~ msgstr "نسخه"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Install %2$s"
+#~ msgstr "نصب %2$s"
+
+#~ msgid "Update %2$s"
+#~ msgstr "به روز رسانی %2$s"
+
+#~ msgid "Activate %2$s"
+#~ msgstr "فعال سازی %2$s"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "پیام نویسنده پلاگین برای ارتقا:"
+
+#~ msgid "Update"
+#~ msgstr "به روز رسانی"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr "هیچ افزونه ای برای نصب انتخاب نشده است."
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr "هیچ افزونه ای برای به روز رسانی انتخاب نشده است."
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "در حال حاضر هیچ افزونه ای در دسترس نیست."
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "هیچ افزونه برای به روز رسانی انتخاب نشده است."
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr "هیچ افزونه برای فعال شدن انتخاب نشده است."
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "هیچ افزونه ای در این زمان فعال نیست."
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "فعال سازی افزونه ناموفق بود."
+
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "به روز رسانی افزونه %1$s (%2$d/%3$d)"
+
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "هنگام نصب %1$s خطایی رخ داد: <strong>%2$s</strong>."
+
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "نصب %1$s ناموفق بود."
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "روند نصب و فعال سازی شروع شده است. این روند ممکن است در بعضی از هاست ها "
+#~ "طول بکشد، پس لطفا صبور باشید."
+
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s با موفقیت نصب و فعال سازی شد."
+
+#~ msgid "Show Details"
+#~ msgstr "نمایش جزئیات"
+
+#~ msgid "Hide Details"
+#~ msgstr "مخفی کردن جزئیات"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "تمامی فایل ها، نصب و فعال سازی شده اند."
+
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "نصب و فعال سازی افزونه %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "روند نصب شروع شده است. این روند ممکن است در بعضی از هاست طول بکشد، پس "
+#~ "لطفا صبور باشید."
+
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s با موفقیت نصب شد."
+
+#~ msgid "All installations have been completed."
+#~ msgstr "تمامی فایل ها با موفقیت نصب شدند."
+
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "نصب افزونه %1$s (%2$d/%3$d)"
+
+#~ msgid "Display Header"
+#~ msgstr "نمایش هدر"
+
+#~ msgid "Hide Header"
+#~ msgstr "مخفی کردن هدر"
+
+#~ msgid " Template Builder Options"
+#~ msgstr " تنظیمات ساخت الگو"
+
+#~ msgid "Featured Icon"
+#~ msgstr "آیکون ویژه"
+
+#~ msgid "Sidebar Layout"
+#~ msgstr "طرح بندی سایدبار"
+
+#~ msgid "Choose Sidebar Template"
+#~ msgstr "قالب سایدبار را انتخاب کنید"
+
+#~ msgid "You can set up the sidebar content"
+#~ msgstr "شما می توانید محتوای سایدبار را تنظیم کنید"
+
+#~ msgid "here"
+#~ msgstr "اینجا"
+
+#~ msgid "Book Now"
+#~ msgstr "رزرو کنید"
+
+#~ msgid "Learn More"
+#~ msgstr "اطلاعات بیشتر"
+
+#~ msgid "Show About Section with image and description."
+#~ msgstr "نمایش بخش درباره ما با تصویر و توضیحات."
+
+#~ msgid "Section ID"
+#~ msgstr "شناسه بخش"
+
+#~ msgid ""
+#~ "Enter a Unique Section ID. You can use this ID in Menu item for enabling "
+#~ "One Page Menu."
+#~ msgstr ""
+#~ "شناسه بخش منحصر به فرد را وارد کنید. شما می توانید از این شناسه برای فعال "
+#~ "کردن منو ها بهره ببرید."
+
+#~ msgid "Short Description"
+#~ msgstr "نمایش توضیحات"
+
+#~ msgid "Short Content"
+#~ msgstr "محتوای کوتاه"
+
+#~ msgid "Extra Button Text"
+#~ msgstr "متن اضافی برای دکمه"
+
+#~ msgid "Button Link Url"
+#~ msgstr "Url لینک دکمه"
+
+#~ msgid "AT Accordion Section"
+#~ msgstr "بخش لیست آکاردئونی"
+
+#~ msgid "Suitable for FAQ and or other Accordion"
+#~ msgstr "لیست آکاردئونی مناسب برای پرسش و پاسخ های متداول"
+
+#~ msgid "Select Page For Contact"
+#~ msgstr "انتخاب صفحه ی تماس با ما"
+
+#~ msgid ""
+#~ "Select page and its title and excerpt will display in the frontend. No "
+#~ "need of subpages."
+#~ msgstr ""
+#~ "صفحه ای را انتخاب کنید تا عنوان و چکیده آن در صفحه اول نمایش داده می شود. "
+#~ "بدون نیاز به زیرصفحه."
+
+#~ msgid "Select Page"
+#~ msgstr "انتخاب صفحه"
+
+#~ msgid "Page Content From"
+#~ msgstr "محتوای صفحه از"
+
+#~ msgid "Number of page words in content"
+#~ msgstr "تعداد کلمات صفحه در محتوا"
+
+#~ msgid "Please enter -1 to show full content or 0 to show none"
+#~ msgstr "لطفا 1- را برای نمایش کامل محتوا یا 0 برای نمایش هیچ یک وارد کنید"
+
+#~ msgid "Select Pages"
+#~ msgstr "انتخاب صفحات"
+
+#~ msgid "Add Page, Reorder and Remove"
+#~ msgstr "افزودن، مرتب سازی و حذف صفحه"
+
+#~ msgid "Full Edit"
+#~ msgstr "ویرایش کامل"
+
+#~ msgid "Number of words in content"
+#~ msgstr "تعداد کلمات در محتوا"
+
+#~ msgid "Background Options"
+#~ msgstr "تنظیمات پس زمینه"
+
+#~ msgid "AT Posts Column"
+#~ msgstr "ستون پست ها"
+
+#~ msgid "Show posts from selected category with advanced options"
+#~ msgstr "نمایش پست ها از دسته بندی ها با تنظیمات پیشرفته"
+
+#~ msgid "Select Tag"
+#~ msgstr "انتخاب تگ"
+
+#~ msgid "Number of words on content"
+#~ msgstr "تعداد کلمات در محتوا"
+
+#~ msgid "Column Number"
+#~ msgstr "شماره ستون"
+
+#~ msgid "Order by"
+#~ msgstr "سفارش داده شده توس"
+
+#~ msgid "Normal Featured Post Image"
+#~ msgstr "تصویر استاندارد برای پست ویژه"
+
+#~ msgid ""
+#~ "Note: Some of the features only work in \"Home main content area\" due to "
+#~ "minimum width in other areas."
+#~ msgstr ""
+#~ "نکته: بعضی از ویژگی ها تنها در \"محتوای صفحه اصلی\" کار می کنند، زیرا "
+#~ "حداقل عرض را در نواحی دیگر در نظر بگیرید."
+
+#~ msgid "AT Contact Section"
+#~ msgstr "بخش تماس با ما"
+
+#~ msgid "Show Contact Section."
+#~ msgstr "نمایش بخش محتوا."
+
+#~ msgid "Enter Shortcode"
+#~ msgstr "کد کوتاه را وارد کنید"
+
+#~ msgid "Download contact form 7 from %1$shere%2$s"
+#~ msgstr "دانلود افزونه  contact form 7 از %1$sاینجا%2$s"
+
+#~ msgid "AT Food Menu Widget"
+#~ msgstr "ابزارک های منوی غذا"
+
+#~ msgid "Show Food Menu Section beautifully"
+#~ msgstr "بخش منوی غذا"
+
+#~ msgid "Add Food Menu Options"
+#~ msgstr "تنظیمات منوی غذا"
+
+#~ msgid "Add Food Menu, Reorder and Remove."
+#~ msgstr "افزودن، مرتب سازی و حذف منوی غذا."
+
+#~ msgid "Enter Price Symbol"
+#~ msgstr "نماد قیمت را وارد کنید"
+
+#~ msgid "Enter Price"
+#~ msgstr "قیمت را وارد کنید"
+
+#~ msgid "Enter Food Menu Link"
+#~ msgstr "لینک غذا را وارد کنید"
+
+#~ msgid "Enter Food Menu Details"
+#~ msgstr "جزئیات غذا را وارد کنید"
+
+#~ msgid "AT Gallery Section"
+#~ msgstr "بخش گالری"
+
+#~ msgid "Show Gallery Section."
+#~ msgstr "نمایش بخش گالری."
+
+#~ msgid ""
+#~ "Add Page, Reorder and Remove. Please do not forget to add Featured Image "
+#~ "on selected pages. "
+#~ msgstr "لطفا اضافه کردن، مرتب سازی و حذف صفحه را فراموش نکنید. "
+
+#~ msgid "Image Popup Type"
+#~ msgstr "نوع پاپ آپ تصویر"
+
+#~ msgid "AT Feature Section"
+#~ msgstr "بخش ویژگی ها"
+
+#~ msgid "Select Background Image"
+#~ msgstr "انتخاب تصویر پس زمینه"
+
+#~ msgid "Show Section with beautiful Icons."
+#~ msgstr "نمایش بخش ها با آیکن های زیبا."
+
+#~ msgid ""
+#~ "Add Page, Reorder and Remove. Please do not forget to add Icon and "
+#~ "Excerpt on selected pages."
+#~ msgstr "لطفا اضافه کردن، مرتب سازی و حذف صفحه را فراموش نکنید."
+
+#~ msgid "Design Type"
+#~ msgstr "نوع طراحی"
+
+#~ msgid "AT Team/Speakers Section"
+#~ msgstr "بخش تیم/سخنران ها"
+
+#~ msgid ""
+#~ "Add Page, Reorder and Remove. Please do not forget to add Featured Image "
+#~ "and Excerpt on selected pages"
+#~ msgstr "لطفا افزودن، مرتب سازی و حذف صفحه را فراموش نکنید"
+
+#~ msgid "AT Testimonial Section"
+#~ msgstr "بخش مشتریان راضی"
+
+#~ msgid "Show Testimonial Section."
+#~ msgstr "نمایش بخش مشتریان راضی."
+
+#~ msgid "Gray"
+#~ msgstr "خاکستری"
+
+#~ msgid "Gallery"
+#~ msgstr "گالری"
+
+#~ msgid "Single"
+#~ msgstr "تکی"
+
+#~ msgid ""
+#~ "Displays widgets on home page main content area.%1$s Note : Please go to "
+#~ "%2$s \"Static Front Page\"%3$s setting, Select \"A static page\" then "
+#~ "\"Front page\" and \"Posts page\" to show added widgets"
+#~ msgstr ""
+#~ "ابزارک ها را در صفحه اصلی نمایش می دهد. %1$s توجه: لطفا به صفحه %2$s صفحه "
+#~ "اصلی استاتیک %3$s بروید، صفحه \"استاتیک\" را انتخاب کنید و سپس آنرا به "
+#~ "صفحه اصلی و صفحه پست ها اضافه کنید"
+
+#~ msgid ""
+#~ "Displays widgets on Front/Home page. Note : Please go to Setting => "
+#~ "Reading, Select \"A static page\" then \"Front page\" and \"Posts page\" "
+#~ "to show added widgets"
+#~ msgstr ""
+#~ "ابزارک ها را در Front / Home نمایش می دهد. توجه: لطفا به تنظیمات => قسمت "
+#~ "خواندن بروید، «صفحه استاتیک» را انتخاب کنید و سپس «صفحه اصلی» و «صفحه "
+#~ "پست» را به آن ها اضافه کنید"
+
+#~ msgid "Footer Column One"
+#~ msgstr "ستون اول فوتر"
+
+#~ msgid "Displays items on top footer section."
+#~ msgstr "آیتم ها را در بخش بالا و پایین صفحه نمایش می دهد."
+
+#~ msgid "Footer Column Two"
+#~ msgstr "ستون دوم فوتر"
+
+#~ msgid "Footer Column Three"
+#~ msgstr "ستون سوم فوتر"
+
+#~ msgid "Footer Column Four"
+#~ msgstr "ستون چهارم فوتر"
+
+#~ msgid "Popup Widget Area"
+#~ msgstr "ابزارک پاپ آپ"
+
+#~ msgid "Displays items on Pop up"
+#~ msgstr "آیتم ها را در پاپ آپ نمایش می دهد"
+
+#~ msgid "Comment navigation"
+#~ msgstr "ناوبری نظرات"
+
+#~ msgid "Older Comments"
+#~ msgstr "نظرات قدیمی تر"
+
+#~ msgid "Newer Comments"
+#~ msgstr "نظرات جدیدتر"
+
+#~ msgctxt "Parent post link"
+#~ msgid ""
+#~ "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+#~ "%title</span>"
+#~ msgstr ""
+#~ "<span class=\"meta-nav\">منتشر شده در</span><span class=\"post-title\">"
+#~ "%title</span>"
+
+#~ msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "ادامه را بخوانید %s <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "https://www.acmethemes.com/themes/restaurant-recipe"
+#~ msgstr "https://demo.hamyarwp.com/restaurant-recipe"
+
+#~ msgid "404 Error"
+#~ msgstr "خطای 404"
+
+#~ msgid "Portfolio Web"
+#~ msgstr "نمونه کارهای وب"
+
+#~ msgid "Portfolio Web Pro"
+#~ msgstr "نسخه حرفه ای نمونه کارهای وب"
+
+#~ msgid "Portfolio Web Info"
+#~ msgstr "اطلاعات نمونه کارهای وب"
+
+#~ msgid "WooCommerce Compatible"
+#~ msgstr "با ووکامرس سازگار است"
+
+#~ msgid "Rectangle"
+#~ msgstr "مستطیل"
+
+#~ msgid "Rounded Rectangle"
+#~ msgstr "مستطیل گرد"
+
+#~ msgid "Show Image"
+#~ msgstr "نمایش تصویر"
+
+#~ msgid "Portfolio Web - Showcase your Portfolio on the Web World"
+#~ msgstr "Portfolio Web - نمایش نمونه کارهای شما در جهان وب"
+
+#~ msgid ""
+#~ "The ultimate theme for showcasing Personal Portfolio and Company Portfolio"
+#~ msgstr "قالبی نامحدود برای نمایش نمونه کارها شخصی و شرکتی شما"
+
+#~ msgid "Download Resume"
+#~ msgstr "دانلود رزومه"
+
+#~ msgid "AT Advanced Image/Logo"
+#~ msgstr "تصویر/لوگو پیشرفته"
+
+#~ msgid "Show Image/Logo with advanced options"
+#~ msgstr "نمایش تصویر/لوگو با تنظیمات پیشرفته"
+
+#~ msgid "Add Image and Link"
+#~ msgstr "تصویر و لینک را اضافه کنید"
+
+#~ msgid "Select Logo"
+#~ msgstr "انتخاب لوگو"
+
+#~ msgid "Enter Image Link"
+#~ msgstr "لینک تصویر را وارد کنید"
+
+#~ msgid "Skill"
+#~ msgstr "مهارت"
+
+#~ msgid "Enter Skills % Number"
+#~ msgstr "میزان مهارت را به % وارد کنید"
+
+#~ msgid "Enter designation"
+#~ msgstr "سمت را وارد کنید"
+
+#~ msgid "AT Timeline Widget"
+#~ msgstr "ابزارک نوار زمان"
+
+#~ msgid "Add Timeline Options"
+#~ msgstr "تنظیمات نوار زمان را اضافه کنید"
+
+#~ msgid "Add Timeline, Reorder and Remove."
+#~ msgstr "افزودن، مرتب سازی و حذف نوار زمان."
+
+#~ msgid "Timeline"
+#~ msgstr "نوار زمان"
+
+#~ msgid "Enter Timeline Date (Duration)"
+#~ msgstr "تاریخ نوار زمان را وارد کنید (مدت زمان)"
+
+#~ msgid "Enter Timeline Link"
+#~ msgstr "لینک نوار زمان را وارد کنید"
